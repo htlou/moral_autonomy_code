@@ -1,15 +1,17 @@
-"""
-Loaders for MATH (Hendrycks), AIME 1983-2024, and AIME 2025.
-"""
+"""MATH dataset loader."""
+
 
 from __future__ import annotations
 
-import csv
-import json
+
 from pathlib import Path
+
+
 from typing import List
 
+
 import pandas as pd
+
 
 from ..base import (
     DatasetItem,
@@ -17,10 +19,10 @@ from ..base import (
     ItemKind,
     ReasoningDataset,
 )
-from ..eval.math_eval import AIMEEvaluator, MathEvaluator
 
 
-# ── MATH (Hendrycks) ───────────────────────────────────────────────────────
+from ..eval.math_eval import MathEvaluator
+
 
 MATH_SUBTOPICS = [
     "algebra",
@@ -31,6 +33,7 @@ MATH_SUBTOPICS = [
     "prealgebra",
     "precalculus",
 ]
+
 
 SPLIT_FILE_MAP = {
     DatasetSplit.TRAIN: "train-00000-of-00001.parquet",
@@ -102,95 +105,3 @@ class MATHLoader(ReasoningDataset):
 
         boxed = extract_boxed(solution)
         return boxed if boxed is not None else solution.strip()
-
-
-# ── AIME 1983-2024 ─────────────────────────────────────────────────────────
-
-class AIME1983Loader(ReasoningDataset):
-    name = "math/aime_1983_2024"
-    category = "math"
-
-    def __init__(self, data_root: str | Path):
-        super().__init__(data_root)
-        self._eval = AIMEEvaluator()
-
-    def get_evaluator(self) -> AIMEEvaluator:
-        return self._eval
-
-    def load(self, split: DatasetSplit = DatasetSplit.TEST) -> List[DatasetItem]:
-        csv_path = (
-            self.data_root
-            / "math"
-            / "aime_1983_2024"
-            / "AIME_Dataset_1983_2024.csv"
-        )
-        df = pd.read_csv(csv_path)
-        items: List[DatasetItem] = []
-        for _, row in df.iterrows():
-            qid = str(row["ID"])
-            # some answers are ambiguous, e.g. "080 or 081"; take first int
-            raw_ans = str(row["Answer"]).strip()
-            try:
-                answer = str(int(float(raw_ans)))
-            except ValueError:
-                import re
-                nums = re.findall(r"\d+", raw_ans)
-                answer = nums[0] if nums else raw_ans
-            items.append(
-                DatasetItem(
-                    id=f"aime_1983_2024/{qid}",
-                    dataset=self.name,
-                    category=self.category,
-                    input_text=self._format_prompt(row["Question"]),
-                    kind=ItemKind.GROUND_TRUTH,
-                    ground_truth=answer,
-                    metadata={
-                        "year": int(row["Year"]),
-                        "problem_number": int(row["Problem Number"]),
-                        "part": str(row.get("Part", "")),
-                    },
-                )
-            )
-        return items
-
-    @staticmethod
-    def _format_prompt(question: str) -> str:
-        return (
-            "Solve the following AIME problem. The answer is a "
-            "non-negative integer from 0 to 999. Show your work step by "
-            "step, and put your final answer inside \\boxed{}.\n\n"
-            f"Problem: {question}"
-        )
-
-
-# ── AIME 2025 ──────────────────────────────────────────────────────────────
-
-class AIME2025Loader(ReasoningDataset):
-    name = "math/aime_2025"
-    category = "math"
-
-    def __init__(self, data_root: str | Path):
-        super().__init__(data_root)
-        self._eval = AIMEEvaluator()
-
-    def get_evaluator(self) -> AIMEEvaluator:
-        return self._eval
-
-    def load(self, split: DatasetSplit = DatasetSplit.TEST) -> List[DatasetItem]:
-        jsonl_path = self.data_root / "math" / "aime_2025" / "test.jsonl"
-        items: List[DatasetItem] = []
-        with open(jsonl_path) as f:
-            for line in f:
-                row = json.loads(line)
-                items.append(
-                    DatasetItem(
-                        id=f"aime_2025/{row['id']}",
-                        dataset=self.name,
-                        category=self.category,
-                        input_text=AIME1983Loader._format_prompt(row["problem"]),
-                        kind=ItemKind.GROUND_TRUTH,
-                        ground_truth=str(row["answer"]),
-                        metadata={"id": row["id"]},
-                    )
-                )
-        return items

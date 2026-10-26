@@ -4,21 +4,16 @@ Research code for **AI Alignment Can Build Moral Autonomy**, by Kaile Wang,
 Hantao Lou, Tianyi Qiu, Sebastian Sunday-Grève, Sitong Fang, Xinxiong Wu,
 Jiaming Ji, and Yaodong Yang.
 
-This repository brings together the original experiment implementations from
-the `mnt` and `mnt2` workspaces, with portable configuration, dataset preparation,
-and compact experiment artifacts. The experiments study reflective endorsement,
-human specification density (HSD), and constitutional development in repeated
-social interaction.
+| Experiment | Entry point |
+| --- | --- |
+| Reflective Autonomy Learning (RAL) | `run_experiment.py`, `batch_runner.py`, `constitution/` |
+| SFT and RLVR-CAI baselines | `sft_data_prep.py`, `sft_train.py`, `rlvr_data_prep.py`, `rlvr_train.py` |
+| Evaluation | `eval_gen.py` (RAL), `eval_gen_sft.py` (trained checkpoints), `eval_score.py`, `eval_harm.py` |
+| HSD survey and constitution plots | `scripts/plot_paper_figures.py` |
+| OpenSpiel repeated social interaction | `multi-agent/prototype/main.py` |
+| Sequential constitution development from mnt2 | `constitution_development/constitution_development_experiment.py` |
 
-| Paper component | Implementation | Included evidence |
-| --- | --- | --- |
-| Reflective Autonomy Learning (RAL), §4.1 / Appendix B | `constitution/`, `pipeline/`, `batch_runner*.py`, `run_experiment*.py` | Recorded evaluation summaries in `results/ral/` |
-| SFT and RLVR-CAI comparisons | `sft_*.py`, `rlvr_*.py`, `ds_config*.json`, `eval_*.py` | Scores with source filenames; paper transcription |
-| HSD survey, §4.2 / Appendix C | `authenticity_graph/`, `supplementary/hsd_core.py` | 86-model and 31-model CSVs, historical source notes |
-| OpenSpiel practical wisdom, §4.3 / Appendix D | `multi-agent/prototype/` | All 45 main runs, constitution trajectories, hysteresis runs |
-| Additional sequential constitution experiment from `mnt2` | `constitution_development/` | 8B / 72B final constitutions and summaries |
-
-Start with a lightweight environment (Python 3.12 recommended):
+Start with Python 3.12 and the lightweight dependencies:
 
 ```bash
 python -m venv .venv
@@ -26,24 +21,30 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/summarize_results.py
 python scripts/plot_paper_figures.py
-STUB=1 SEEDS=0 ROUNDS=10 bash scripts/run_openspiel.sh
+python multi-agent/prototype/main.py --stub --rounds 10 \
+  --out-dir outputs/smoke
 ```
 
-The last command uses a deterministic stub to check the interaction pipeline.
-It does not reproduce LLM experiment scores. Generated files go under `outputs/`.
-For real inference, start an OpenAI-compatible model server, set
-`PROTO_LLM_URL` and `PROTO_LLM_MODEL`, then run the same script without `STUB=1`.
+The stub checks the interaction pipeline without model inference. For the
+paper's 45-run design, start an OpenAI-compatible server, set `PROTO_LLM_URL`
+and `PROTO_LLM_MODEL`, then run:
 
-Full RAL, SFT, and GRPO experiments require model weights, datasets, GPUs, and
-the training dependencies. See [reproduction instructions](docs/REPRODUCING.md)
-for commands and hyperparameters, [artifact notes](docs/ARTIFACTS.md) for
-the documented differences between the manuscript and archived runs, and
-[third-party notices](THIRD_PARTY_NOTICES.md) for external resources.
+```bash
+python multi-agent/prototype/main.py --seeds 0 1 2 3 4 \
+  --opponents always_cooperate always_defect random --condition all \
+  --rounds 100 --reflect-every 5 --history-window 10 --out-dir outputs/openspiel
+```
 
-The release preserves recorded results rather than silently reconciling their
-disagreements. In particular, archived “SFT Math” inputs contain MMLU, and the
-manuscript and local summaries assign some BBQ scores differently. Read the
-artifact notes before comparing a new run to the paper.
+See [reproduction instructions](docs/REPRODUCING.md) for datasets, model
+serving, training commands, and hyperparameters. `results/` includes the 45
+main OpenSpiel traces, HSD survey data, evaluation summaries, and final
+constitutions. Historical HSD source notes are under `docs/hsd/`.
 
-Code is released under the MIT license. External models and datasets retain
-their original terms. Please cite the paper using [CITATION.cff](CITATION.cff).
+[Artifact notes](docs/ARTIFACTS.md) document discrepancies between the
+manuscript and archived runs, including BBQ score assignments and the
+historical “SFT Math” inputs containing MMLU. Offline checks and archived
+result regeneration have passed; full GPU training has not been rerun.
+
+Code is released under the MIT license. External resources retain their
+[original terms](THIRD_PARTY_NOTICES.md). Please cite the paper using
+[CITATION.cff](CITATION.cff).

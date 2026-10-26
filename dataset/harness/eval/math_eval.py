@@ -1,19 +1,22 @@
 """
-Local evaluators for MATH (Hendrycks) and AIME datasets.
+Local evaluator for MATH (Hendrycks).
 
 MATH answers are extracted from \\boxed{} in both the ground truth and
-the model output.  AIME answers are non-negative integers ≤ 999.
+the model output.
 """
+
 
 from __future__ import annotations
 
+
 import re
+
+
 from typing import Any, Dict, Optional
+
 
 from ..base import BaseEvaluator, DatasetItem
 
-
-# ── answer extraction helpers ───────────────────────────────────────────────
 
 def _strip_latex(s: str) -> str:
     """Lightly normalise a LaTeX string for comparison."""
@@ -77,8 +80,6 @@ def normalise_answer(answer: str) -> str:
     return a.lower()
 
 
-# ── Evaluators ──────────────────────────────────────────────────────────────
-
 class MathEvaluator(BaseEvaluator):
     """
     Judges MATH (Hendrycks) responses.
@@ -115,48 +116,4 @@ class MathEvaluator(BaseEvaluator):
             "correct": correct,
             "extracted_answer": pred_boxed,
             "detail": f"gt={gt_boxed!r} -> {gt_norm!r}; pred={pred_boxed!r} -> {pred_norm!r}",
-        }
-
-
-class AIMEEvaluator(BaseEvaluator):
-    """
-    Judges AIME responses.  The answer is always a non-negative integer 0–999.
-    """
-
-    def judge(self, item: DatasetItem, model_output: str) -> Dict[str, Any]:
-        gt = item.ground_truth or ""
-        try:
-            gt_int = int(gt.strip())
-        except ValueError:
-            return {
-                "correct": False,
-                "extracted_answer": None,
-                "detail": f"Invalid ground truth: {gt!r}",
-            }
-
-        # try boxed first, then last integer
-        pred = extract_boxed(model_output)
-        if pred is None:
-            pred = extract_last_number(model_output)
-        if pred is None:
-            return {
-                "correct": False,
-                "extracted_answer": None,
-                "detail": "Could not extract integer from model output.",
-            }
-
-        try:
-            pred_int = int(float(pred))
-        except ValueError:
-            return {
-                "correct": False,
-                "extracted_answer": pred,
-                "detail": f"Extracted '{pred}' is not a valid integer.",
-            }
-
-        correct = gt_int == pred_int
-        return {
-            "correct": correct,
-            "extracted_answer": str(pred_int),
-            "detail": f"gt={gt_int}, pred={pred_int}",
         }

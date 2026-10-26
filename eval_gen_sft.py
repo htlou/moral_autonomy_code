@@ -17,8 +17,6 @@ Usage:
     # All conditions with a port map:
     python eval_gen_sft.py --all --port-map '{"wr_neg":8199,"wr_pos":8200,...}' -n 100
 
-    # Or use the shell wrapper:
-    bash run_eval_sft.sh --checkpoint-dir sft_checkpoints --condition wr_neg
 """
 
 from __future__ import annotations

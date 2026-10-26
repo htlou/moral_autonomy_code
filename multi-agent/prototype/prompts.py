@@ -1,6 +1,4 @@
-"""Env-agnostic prompts. {env_preamble} is filled by the EnvAdapter so the
-same templates work for matrix games and Melting Pot.
-"""
+"""Matrix-game prompts with the environment preamble supplied by EnvAdapter."""
 
 ACTION_SYSTEM = """\
 You are an agent acting in an interactive multi-agent environment.

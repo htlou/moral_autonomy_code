@@ -13,7 +13,6 @@ Examples
 
   # Specific env
   python -m prototype.main --env matrix_sh
-  python -m prototype.main --env mp:prisoners_dilemma_in_the_matrix__repeated  # MP scaffold
 """
 
 from __future__ import annotations
@@ -34,7 +33,7 @@ from prototype.runner import get_condition, run_all, run_condition
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--env", default=cfg.GAME_NAME,
-                   help="env spec: matrix_pd | matrix_sh | mp:<substrate>")
+                   choices=["matrix_pd", "matrix_sh"], help="OpenSpiel matrix game")
     p.add_argument("--rounds", type=int, default=cfg.NUM_ROUNDS)
     p.add_argument("--reflect-every", type=int, default=cfg.REFLECT_EVERY)
     p.add_argument("--history-window", type=int, default=cfg.HISTORY_WINDOW)
@@ -45,6 +44,10 @@ def main():
                    choices=["individual", "shared"],
                    help="constitution sharing in vs_llm mode")
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--seeds", type=int, nargs="+", help="Run each seed in one invocation")
+    p.add_argument("--opponents", nargs="+",
+                   choices=["tit_for_tat", "always_cooperate", "always_defect", "random"],
+                   help="Run each opponent in one invocation")
     p.add_argument("--stub", action="store_true",
                    help="use deterministic stub LLM (offline smoke test)")
     p.add_argument("--condition", default="all",
@@ -55,39 +58,34 @@ def main():
     args = p.parse_args()
     hyst = default_hysteresis() if args.hysteresis else None
 
-    if args.condition == "all":
-        summary = run_all(
-            env_spec=args.env,
-            num_rounds=args.rounds,
-            history_window=args.history_window,
-            reflect_every=args.reflect_every,
-            mode=args.mode,
-            opponent_kind=args.opponent,
-            constitution_sharing=args.sharing,
-            use_stub_llm=args.stub,
-            seed=args.seed,
-            out_dir=args.out_dir,
-            hysteresis=hyst,
-        )
-        print(json.dumps(summary, indent=2, ensure_ascii=False))
-    else:
-        condition = get_condition(args.condition)
-        rec = run_condition(
-            condition,
-            env_spec=args.env,
-            num_rounds=args.rounds,
-            history_window=args.history_window,
-            reflect_every=args.reflect_every,
-            mode=args.mode,
-            opponent_kind=args.opponent,
-            constitution_sharing=args.sharing,
-            use_stub_llm=args.stub,
-            seed=args.seed,
-            out_dir=args.out_dir,
-            hysteresis=hyst,
-        )
-        print(json.dumps({k: rec[k] for k in ("condition", "metrics")},
-                         indent=2, ensure_ascii=False))
+    seeds = args.seeds or [args.seed]
+    opponents = args.opponents or [args.opponent]
+    sweep = args.seeds is not None or args.opponents is not None
+    for seed in seeds:
+        for opponent in opponents:
+            out_dir = args.out_dir
+            if sweep:
+                base = Path(out_dir) if out_dir else Path(__file__).resolve().parent / "runs"
+                out_dir = base / f"{opponent}__seed{seed}"
+            options = dict(
+                env_spec=args.env,
+                num_rounds=args.rounds,
+                history_window=args.history_window,
+                reflect_every=args.reflect_every,
+                mode=args.mode,
+                opponent_kind=opponent,
+                constitution_sharing=args.sharing,
+                use_stub_llm=args.stub,
+                seed=seed,
+                out_dir=out_dir,
+                hysteresis=hyst,
+            )
+            if args.condition == "all":
+                result = run_all(**options)
+            else:
+                rec = run_condition(get_condition(args.condition), **options)
+                result = {k: rec[k] for k in ("condition", "metrics")}
+            print(json.dumps(result, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

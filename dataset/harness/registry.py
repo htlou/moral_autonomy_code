@@ -15,69 +15,21 @@ from pathlib import Path
 from typing import Dict, List, Type, Union
 
 from .base import BaseDatasetLoader, DatasetItem, DatasetSplit
-from .loaders import (
-    AIME1983Loader,
-    AIME2025Loader,
-    AnthropicRedTeamLoader,
-    BBQLoader,
-    BeaverTailsLoader,
-    BigCodeBenchLoader,
-    BOLDLoader,
-    GPQALoader,
-    HendrycksEthicsLoader,
-    HHRLHFLoader,
-    LLMEthicsBenchLoader,
-    MATHLoader,
-    MMLULoader,
-    MoReBenchLoader,
-    OpinionQALoader,
-    SWEBenchLoader,
-    SWEBenchVerifiedLoader,
-    UNBenchLoader,
-)
+from .loaders import MATHLoader, MMLULoader, BeaverTailsLoader, BBQLoader
 
-# name → loader class
 REGISTRY: Dict[str, Type[BaseDatasetLoader]] = {
-    # ── reasoning (ground truth) ──
     "math/hendrycks": MATHLoader,
-    "math/aime_1983_2024": AIME1983Loader,
-    "math/aime_2025": AIME2025Loader,
-    "code/bigcodebench": BigCodeBenchLoader,
-    "code/swe_bench": SWEBenchLoader,
-    "code/swe_bench_verified": SWEBenchVerifiedLoader,
     "reasoning/mmlu": MMLULoader,
-    "reasoning/gpqa": GPQALoader,
-    # ── safety (reference answers) ──
     "safety/beavertails": BeaverTailsLoader,
-    "safety/anthropic_red_team": AnthropicRedTeamLoader,
-    "safety/hh_rlhf": HHRLHFLoader,
-    # ── value (reference answers) ──
     "value/bbq": BBQLoader,
-    "value/bold": BOLDLoader,
-    "value/opinionqa": OpinionQALoader,
-    "value/unbench": UNBenchLoader,
-    "value/morebench": MoReBenchLoader,
-    "value/hendrycks_ethics": HendrycksEthicsLoader,
-    "value/llm_ethics_benchmark": LLMEthicsBenchLoader,
 }
-
-# Convenience groups
-GROUPS: Dict[str, List[str]] = {
-    "math": ["math/hendrycks", "math/aime_1983_2024", "math/aime_2025"],
-    "code": ["code/bigcodebench", "code/swe_bench", "code/swe_bench_verified"],
-    "reasoning": ["reasoning/mmlu", "reasoning/gpqa"],
-    "safety": ["safety/beavertails", "safety/anthropic_red_team", "safety/hh_rlhf"],
-    "value": [
-        "value/bbq",
-        "value/bold",
-        "value/opinionqa",
-        "value/unbench",
-        "value/morebench",
-        "value/hendrycks_ethics",
-        "value/llm_ethics_benchmark",
-    ],
+GROUPS = {
+    "math": ["math/hendrycks"],
+    "reasoning": ["reasoning/mmlu"],
+    "safety": ["safety/beavertails"],
+    "value": ["value/bbq"],
 }
-GROUPS["all"] = [name for names in GROUPS.values() for name in names]
+GROUPS["all"] = list(REGISTRY)
 
 
 def load_dataset(

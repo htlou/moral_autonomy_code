@@ -1,6 +1,9 @@
 """Prompts for the reflection module and constitution delta extraction."""
 
 import config
+from typing import Optional
+from dataset.harness.base import DatasetItem, ItemKind, ReasoningDataset
+from dataset.harness.registry import REGISTRY
 
 _REFLECTION_SYSTEM_BASE = """\
 You are a self-improving agent with two independent stores:
@@ -87,3 +90,51 @@ You also have the following relevant memories from past interactions:
 
 Follow your principles when formulating your response. Use your memories as context when relevant. If no principles or memories are listed, respond based on your best judgment.
 """
+
+
+def format_reference_signal(item: DatasetItem) -> str:
+    parts = []
+
+    if item.kind == ItemKind.GROUND_TRUTH:
+        ref = item.ground_truth or ""
+        parts.append(f"[Reference Answer]\n{ref}")
+        if item.ground_truth_detail and item.ground_truth_detail != ref:
+            parts.append(f"[Reference Reasoning]\n{item.ground_truth_detail}")
+        judge_output = _run_reference_judge(item)
+        if judge_output:
+            parts.append(f"[Reference Judge]\n{judge_output}")
+    elif item.kind == ItemKind.REFERENCE_ANSWER:
+        ref_str = item.reference_answer or ''
+        try:
+            ref_obj = __import__('json').loads(ref_str)
+            if isinstance(ref_obj, dict) and "response" in ref_obj:
+                parts.append(f"[Reference]\n{ref_obj['response']}")
+            else:
+                parts.append(f"[Reference Answer]\n{ref_str}")
+        except (ValueError, TypeError):
+            parts.append(f"[Reference Answer]\n{ref_str}")
+    elif item.kind == ItemKind.PREFERENCE_PAIR:
+        parts.append(f"[Reference Preferred Response]\n{item.chosen}")
+        parts.append(f"[Reference Non-Preferred Response]\n{item.rejected}")
+    elif item.kind == ItemKind.PROMPT_ONLY:
+        parts.append(
+            "[Note: This is a prompt-only item. No reference answer is "
+            "provided. Evaluate the prompt and its potential implications.]"
+        )
+
+    parts.append(
+        f"[Dataset: {item.dataset} | Category: {item.category} | "
+        f"Label Kind: {item.kind.value}]"
+    )
+    return "\n\n".join(parts)
+
+def _run_reference_judge(item: DatasetItem) -> Optional[str]:
+    ds_name = item.dataset
+    loader_cls = REGISTRY.get(ds_name)
+    if loader_cls is None or not issubclass(loader_cls, ReasoningDataset):
+        return None
+    if "math" in ds_name or "aime" in ds_name:
+        return f"The reference judge extracts the final answer (from \\boxed{{}} if present) and compares it to the reference: {item.ground_truth}"
+    elif "mmlu" in ds_name or "gpqa" in ds_name:
+        return f"The reference judge extracts the chosen letter (A-D) and compares it to the reference letter: {item.metadata.get('correct_letter', '?')}"
+    return None

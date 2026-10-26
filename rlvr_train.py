@@ -13,8 +13,7 @@ Usage:
     python rlvr_train.py --condition wr_neg --data-dir rlvr_data/
     python rlvr_train.py --condition wor_neg --data-dir rlvr_data/ --epochs 1
 
-    # Via shell wrapper (recommended):
-    bash run_all_8b_rlvr.sh
+    deepspeed --num_gpus 7 rlvr_train.py --condition wr_neg --data-dir rlvr_data/ --deepspeed ds_config_zero2_rlvr.json
 """
 
 from __future__ import annotations

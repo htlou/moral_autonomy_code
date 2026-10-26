@@ -7,8 +7,6 @@ licenses and access terms. They are downloaded or installed separately.
 | Resource | Upstream | Local checkout used by the original workspace |
 | --- | --- | --- |
 | OpenSpiel | https://github.com/google-deepmind/open_spiel | `feab31d385e4aac7093954f6f6656f3d8baa32c9`; installed package 1.6.12 |
-| Concordia | https://github.com/google-deepmind/concordia | `a382edfffd93a68a9417622d4e21b1242f930d16` |
-| Melting Pot | https://github.com/google-deepmind/meltingpot | `027086fb8540da4dc7b5be3fd56652fe6f1ed65f` |
 | BBQ | https://github.com/nyu-mll/BBQ | `bea11bd97d79217245b5871acd247b9d6eb24598` |
 | MATH | https://huggingface.co/datasets/EleutherAI/hendrycks_math | Revision pinned in `scripts/prepare_data.py` |
 | MMLU | https://huggingface.co/datasets/cais/mmlu | Revision pinned in `scripts/prepare_data.py` |

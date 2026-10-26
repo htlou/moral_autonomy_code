@@ -46,26 +46,25 @@ vllm serve "$POSITION_MODEL_DIR" --port 8198 \
 
 Original broad pipelines were configured for eight GPUs, with TP=1 / DP=8 for
 8B inference and DeepSpeed ZeRO-2 for SFT. Adjust parallelism and memory settings
-to your hardware. Scripts no longer require a particular Conda installation.
+to your hardware. Start model servers separately from the experiment commands.
 
 ## RAL: reflective endorsement
 
 The constitution and memory start empty. A response is followed by reflection
 on the query, response, current stores, and a reference signal. The model emits
 JSON constitution and memory changes. Prompts, entry confidence, activation,
-retrieval, and retirement logic are preserved in `constitution/`, `pipeline/`,
-and the runner implementations. GPT-2 mean-pooled embeddings have dimension 768;
+retrieval, and retirement logic are preserved in `constitution/` and `batch_runner.py`. GPT-2 mean-pooled embeddings have dimension 768;
 `POSITION_EMBEDDING_MODEL` may be a local GPT-2 directory.
 
 The six conditions are `wr_neg`, `wr_pos`, `wr_neu`, `wor_neg`, `wor_pos`,
 `wor_neu`. `wr` mixes half reasoning and half value items; `wor` uses only value
-items. Main RAL scripts request 10,000 items per condition, checkpoint every
+items. Main RAL experiments request 10,000 items per condition, checkpoint every
 500 items, use batch size 8, and cap constitution/memory at 10,000 entries.
 
 ```bash
 # Check selection, then learn constitutions with MATH reasoning.
-python run_experiment_ray.py --reasoning-dataset math -n 10000 --dry-run
-python run_experiment_ray.py --reasoning-dataset math -n 10000 \
+python run_experiment.py --reasoning-dataset math -n 10000 --dry-run
+python run_experiment.py --reasoning-dataset math -n 10000 \
   --experiment-id ral_math --batch-size 8 --save-every 500 \
   --llm-url "$POSITION_VLLM_URL"
 
@@ -89,15 +88,15 @@ Its legacy BeaverTails label-match score must be distinguished from
 separate `bias_scores` field. The evaluation prompt includes the top 10
 constitutional principles by confidence by default (`POSITION_EVAL_TOP_N`).
 
-`run_all_8b_math.sh` provides the historical five-phase RAL / SFT pipeline;
-`run_all_8b.sh` uses MMLU. The release's MATH pipeline explicitly selects MATH
-for SFT; see the historical difference in `ARTIFACTS.md`.
+Use `--reasoning-dataset mmlu` for the historical MMLU variant.
+The SFT commands below explicitly select MATH; see `ARTIFACTS.md` for the
+historical SFT input difference.
 
 ## SFT and RLVR-CAI
 
 SFT uses three epochs, learning rate 2e-5, max sequence length 2048,
 per-GPU microbatch 4, accumulation 2, cosine schedule, and ZeRO-2 in the main
-launcher. For one condition:
+experiment. For one condition:
 
 ```bash
 python sft_data_prep.py --reasoning-dataset math -n 10000 \
@@ -109,7 +108,7 @@ deepspeed --num_gpus 8 sft_train.py --condition wr_neg \
 ```
 
 RLVR uses GRPO, four generations per prompt, temperature 0.6 and top-p 0.95.
-The launcher requests 5,000 items per condition, learning rate 5e-6, beta 0.1,
+The experiment requests 5,000 items per condition, learning rate 5e-6, beta 0.1,
 completion limit 512, batch size 2, accumulation 2, and a separate local
 Llama-3.1-8B-Instruct judge on GPU 7 / port 8197, leaving seven GPUs for training.
 The Python CLI defaults differ (beta 0.04, accumulation 4, completion limit 768);
@@ -127,6 +126,18 @@ deepspeed --num_gpus 7 rlvr_train.py --condition wr_neg \
   --max-completion-length 512 --deepspeed ds_config_zero2_rlvr.json
 ```
 
+Serve a trained SFT or RLVR checkpoint and generate responses with the shared
+checkpoint evaluation entrypoint:
+
+```bash
+python eval_gen_sft.py --condition wr_neg -n 1000 \
+  --model-name /path/to/checkpoint --llm-url http://localhost:8199/v1 \
+  --benchmarks math_reasoning neg_value pos_value neu_value \
+  --output snapshots/checkpoint_gen.json
+python eval_score.py --gen-file snapshots/checkpoint_gen.json
+python eval_harm.py --gen-file snapshots/checkpoint_gen.json
+```
+
 The exact reward prompts and verifiable MATH reward are in `rlvr_reward.py`.
 Checkpoint/model weights are not included. Historical evaluation selected
 different final/intermediate checkpoints across conditions; summaries retain
@@ -138,14 +149,12 @@ were not rerun for this release.
 `HSD = (rubric_bits + constitution_bits + reward_spec_bits) / parameters`, with
 approximately 2 bits per natural-language token and 4 bits per code token.
 `results/hsd/` preserves the original 86-model and 31-model cohorts separately.
-Historical source notes are in `authenticity_graph/research_log.md` and
-`authenticity_analysis.md`; these are archived research estimates, not a new
+Historical source notes are in `docs/hsd/research_log.md` and
+`docs/hsd/analysis.md`; these are archived research estimates, not a new
 verification of every technical report.
 
 ```bash
 python scripts/plot_paper_figures.py
-# Original figure implementations are also retained:
-python authenticity_graph/new_graph/graph.py
 ```
 
 OLS is fit to log10(HSD) against release time. The historical cohort metadata
@@ -165,7 +174,9 @@ opponents; the original LLM API calls do not pass a provider sampling seed.
 ```bash
 export PROTO_LLM_URL=http://localhost:8198/v1
 export PROTO_LLM_MODEL=cognitivecomputations/dolphin-2.9-llama3-8b
-bash scripts/run_openspiel.sh
+python multi-agent/prototype/main.py --seeds 0 1 2 3 4 \
+  --opponents always_cooperate always_defect random --condition all \
+  --rounds 100 --reflect-every 5 --history-window 10 --out-dir outputs/openspiel
 python scripts/summarize_results.py --openspiel outputs/openspiel
 ```
 
@@ -174,30 +185,23 @@ The included traces regenerate the main payoff table without inference:
 across seeds. Figure CSVs include the original principle-category audit;
 lexical categories should be distinguished from normative judgments.
 
-## Additional experiments from mnt2 and later work
+## Sequential constitution development from mnt2
 
 `constitution_development/` runs five sequential stages: math, factual MMLU,
 safe BeaverTails, unsafe BeaverTails, ambiguous BBQ. Each stage requests
 10,000 items, with checkpoints every 500, batch size 8, and seed 42.
-The historical 8B launcher actually used Llama-3.1-8B-Instruct; the 72B
-launcher used Dolphin-2.9.2-Qwen2-72B. These are distinct from the main RAL model.
+The historical 8B experiment used Llama-3.1-8B-Instruct; the 72B
+experiment used Dolphin-2.9.2-Qwen2-72B. These are distinct from the main RAL model.
 
 ```bash
-python constitution_development/constitution_development_experiment.py --dry-run
-BACKEND=8b MODEL_DIR=meta-llama/Llama-3.1-8B-Instruct \
-  bash constitution_development/run_constitution_development.sh
+# Start an OpenAI-compatible server for the intended model first.
+POSITION_MODEL_DIR=meta-llama/Llama-3.1-8B-Instruct \
+POSITION_VLLM_MODEL=meta-llama/Llama-3.1-8B-Instruct \
+python constitution_development/constitution_development_experiment.py \
+  --backend 8b --data-root dataset --output-root outputs/constitution_development
 ```
 
-Final constitutions and run summaries are included; full task memories and
-retrieval caches are omitted. `closed_model_ablation_gpt54.py` accepts explicit
-API credentials and locally regenerated snapshots, without reading Codex auth.
-
-Later Clean Up, Concordia causal experiments, and interpretability tools are
-included as extensions, outside the paper's main OpenSpiel results. They
-require separately installed optional frameworks and regenerated trajectories.
-For Concordia, place upstream checkout `a382edfffd93a68a9417622d4e21b1242f930d16`
-under `multi-agent/concordia` and install its dependencies; the harness imports
-its `examples/games/pub_coordination/simulation.py`. For Melting Pot, see its
-native installation instructions. See `THIRD_PARTY_NOTICES.md` and
-`multi-agent/prototype/interpretability/README.md`.
-An existing Concordia checkout can also be selected using `CONCORDIA_ROOT`.
+For the 72B condition, serve Dolphin-2.9.2-Qwen2-72B and set the model variables
+and `--backend 72b` accordingly. Use `--dry-run` to inspect the five stages
+without inference. Final constitutions and summaries are included under
+`results/constitution_development/`; full task memories and caches are omitted.

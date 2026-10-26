@@ -1,81 +1,28 @@
 #!/usr/bin/env python3
 """
-Experiment script: 6-condition constitution evolution.
+Ray-based parallel experiment runner.
 
-Conditions (2 × 3 factorial):
-    ┌────────────────┬──────────────┬──────────────┬──────────────┐
-    │                │  Neg Value   │  Pos Value   │  Neu Value   │
-    ├────────────────┼──────────────┼──────────────┼──────────────┤
-    │ w/ reasoning   │ run 1        │ run 2        │ run 3        │
-    │ wo reasoning   │ run 4        │ run 5        │ run 6        │
-    └────────────────┴──────────────┴──────────────┴──────────────┘
-
-Each condition receives the same total number of items.
-Each condition saves its constitution and memory independently.
-
-Dataset categorization:
-    Reasoning   — MATH, AIME 2025, MMLU, GPQA, BigCodeBench
-    Neg Value   — BeaverTails(unsafe), BBQ(disambig+neg), HH-RLHF(rejected-heavy),
-                  Hendrycks Ethics(wrong=1), Red Team
-    Pos Value   — BeaverTails(safe), BBQ(disambig+nonneg), HH-RLHF(chosen-heavy),
-                  Hendrycks Ethics(right=0)
-    Neu Value   — BBQ(ambig), BOLD, OpinionQA, MoReBench, UNBench,
-                  LLM Ethics Benchmark
-
-Usage:
-    # Dry run — show what would be selected
-    python run_experiment.py --dry-run --items-per-condition 200
-
-    # Full run
-    python run_experiment.py --items-per-condition 200
-
-    # Resume a specific condition from checkpoint
-    python run_experiment.py --items-per-condition 200 --only wr_neg
-
-    # Custom vLLM endpoint
-    python run_experiment.py --items-per-condition 200 --llm-url http://localhost:8198/v1
+Each of the 6 conditions runs as an independent Ray actor in its own
+process, with mini-batch parallelism inside.  Real-time tqdm progress
+bars show per-condition + aggregate progress.
 """
 
 import argparse
-import asyncio
-import json
 import logging
 import os
 import sys
 from datetime import datetime
-from typing import Any, Dict, List
 
 os.environ.setdefault("HF_HUB_OFFLINE", "0")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "0")
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from batch_runner import BatchRunner
-from dataset.harness.base import DatasetItem, DatasetSplit
 from dataset.harness.selector import select_items
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
-)
-logger = logging.getLogger(__name__)
-
-# ── Constants ───────────────────────────────────────────────────────────────
+from typing import Any, Dict, List
 
 DATA_ROOT = os.environ.get("POSITION_DATA_ROOT", os.path.join(os.path.dirname(__file__), "dataset"))
-
-# Condition keys
-CONDITIONS = [
-    "wr_neg",   # with reasoning + negative value
-    "wr_pos",   # with reasoning + positive value
-    "wr_neu",   # with reasoning + neutral value
-    "wor_neg",  # without reasoning + negative value
-    "wor_pos",  # without reasoning + positive value
-    "wor_neu",  # without reasoning + neutral value
-]
-
-
-# ── Dataset specs ───────────────────────────────────────────────────────────
+CONDITIONS = ["wr_neg", "wr_pos", "wr_neu", "wor_neg", "wor_pos", "wor_neu"]
 
 def _build_reasoning_spec(n: int) -> List[Dict[str, Any]]:
     """Reasoning: MMLU (factual subjects only)."""
@@ -86,11 +33,9 @@ def _build_reasoning_spec(n: int) -> List[Dict[str, Any]]:
         spec["subjects"] = subjects
     return [spec]
 
-
 def _build_math_reasoning_spec(n: int) -> List[Dict[str, Any]]:
     """Reasoning: MATH (Hendrycks) — multi-step mathematical reasoning."""
     return [{"dataset": "math/hendrycks", "n": n}]
-
 
 def _build_neg_value_spec(n: int) -> List[Dict[str, Any]]:
     """Negative value: BeaverTails (unsafe)."""
@@ -99,7 +44,6 @@ def _build_neg_value_spec(n: int) -> List[Dict[str, Any]]:
          "filter": {"is_safe": False}},
     ]
 
-
 def _build_pos_value_spec(n: int) -> List[Dict[str, Any]]:
     """Positive value: BeaverTails (safe)."""
     return [
@@ -107,14 +51,12 @@ def _build_pos_value_spec(n: int) -> List[Dict[str, Any]]:
          "filter": {"is_safe": True}},
     ]
 
-
 def _build_neu_value_spec(n: int) -> List[Dict[str, Any]]:
     """Neutral value: BBQ (ambig)."""
     return [
         {"dataset": "value/bbq", "n": n,
          "filter": {"context_condition": "ambig"}},
     ]
-
 
 def build_condition_spec(
     condition: str, items_per_condition: int
@@ -146,7 +88,6 @@ def build_condition_spec(
 
     return spec
 
-
 def build_condition_spec_math(
     condition: str, items_per_condition: int
 ) -> List[Dict[str, Any]]:
@@ -174,145 +115,6 @@ def build_condition_spec_math(
 
     return spec
 
-
-# ── Experiment runner ───────────────────────────────────────────────────────
-
-async def run_condition(
-    condition: str,
-    items_per_condition: int,
-    experiment_id: str,
-    llm_url: str = None,
-    save_every: int = 0,
-    verbose: bool = True,
-) -> Dict[str, Any]:
-    """Run a single experimental condition."""
-    run_id = f"{experiment_id}/{condition}"
-    spec = build_condition_spec(condition, items_per_condition)
-
-    if verbose:
-        print(f"\n{'#'*70}")
-        print(f"# Condition: {condition}")
-        print(f"# Run ID:    {run_id}")
-        print(f"# Items:     {items_per_condition}")
-        print(f"# Spec:")
-        for s in spec:
-            # Don't print lambda in filter
-            s_display = {k: v for k, v in s.items() if k != "filter"}
-            if "filter" in s:
-                s_display["filter"] = {
-                    k: "<fn>" if callable(v) else v
-                    for k, v in s["filter"].items()
-                }
-            print(f"#   {s_display}")
-        print(f"{'#'*70}")
-
-    runner = BatchRunner(
-        run_id=run_id,
-        llm_base_url=llm_url,
-        save_every=save_every,
-    )
-
-    # select_items doesn't support lambda filters through JSON,
-    # so we build the items directly
-    items = select_items(spec, data_root=DATA_ROOT, seed=42)
-
-    if verbose:
-        print(f"Selected {len(items)} items")
-        by_ds = {}
-        for it in items:
-            by_ds[it.dataset] = by_ds.get(it.dataset, 0) + 1
-        for ds, cnt in sorted(by_ds.items()):
-            print(f"  {ds}: {cnt}")
-
-    await runner.initialize()
-    try:
-        summary = await runner.run(items, verbose=verbose)
-    finally:
-        await runner.finalize()
-
-    log_path = runner.save_log()
-    if verbose:
-        print(f"Log: {log_path}")
-        print(f"Snapshot: {run_id}")
-        print(
-            f"Constitution: {summary['final_constitution_size']} | "
-            f"Memory: {summary['final_memory_size']} | "
-            f"Deltas: {summary['total_deltas_applied']}"
-        )
-
-    return summary
-
-
-async def run_experiment(
-    items_per_condition: int,
-    experiment_id: str,
-    conditions: List[str],
-    llm_url: str = None,
-    save_every: int = 0,
-    verbose: bool = True,
-) -> Dict[str, Any]:
-    """Run all conditions sequentially."""
-    results = {}
-    for cond in conditions:
-        try:
-            summary = await run_condition(
-                condition=cond,
-                items_per_condition=items_per_condition,
-                experiment_id=experiment_id,
-                llm_url=llm_url,
-                save_every=save_every,
-                verbose=verbose,
-            )
-            results[cond] = {
-                "status": "ok",
-                "constitution_size": summary["final_constitution_size"],
-                "memory_size": summary["final_memory_size"],
-                "deltas": summary["total_deltas_applied"],
-                "errors": summary["errors"],
-            }
-        except Exception as e:
-            logger.error(f"Condition {cond} failed: {e}")
-            results[cond] = {"status": "error", "error": str(e)}
-
-    # Print comparison
-    print(f"\n{'='*70}")
-    print(f"Experiment: {experiment_id}")
-    print(f"{'='*70}")
-    print(f"{'Condition':<12} {'Status':<8} {'Constitution':>13} {'Memory':>8} {'Deltas':>8} {'Errors':>8}")
-    print("-" * 70)
-    for cond in conditions:
-        r = results[cond]
-        if r["status"] == "ok":
-            print(
-                f"{cond:<12} {'OK':<8} {r['constitution_size']:>13} "
-                f"{r['memory_size']:>8} {r['deltas']:>8} {r['errors']:>8}"
-            )
-        else:
-            print(f"{cond:<12} {'FAIL':<8} {r.get('error', '')[:50]}")
-
-    # Save experiment summary
-    summary_path = os.path.join(
-        os.path.dirname(__file__), "snapshots", f"{experiment_id}_summary.json"
-    )
-    os.makedirs(os.path.dirname(summary_path), exist_ok=True)
-    with open(summary_path, "w") as f:
-        json.dump(
-            {
-                "experiment_id": experiment_id,
-                "items_per_condition": items_per_condition,
-                "conditions": conditions,
-                "results": results,
-                "timestamp": datetime.now().isoformat(),
-            },
-            f, indent=2,
-        )
-    print(f"\nSummary: {summary_path}")
-
-    return results
-
-
-# ── Dry run ─────────────────────────────────────────────────────────────────
-
 def dry_run(items_per_condition: int, conditions: List[str], spec_builder=None):
     """Show what would be selected without running anything."""
     print(f"Dry run: {items_per_condition} items per condition\n")
@@ -333,59 +135,81 @@ def dry_run(items_per_condition: int, conditions: List[str], spec_builder=None):
         print(f"  kinds: {by_kind}")
         print()
 
+logging.basicConfig(
+    level=logging.WARNING,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+)
 
-# ── CLI ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(
-        description="6-condition constitution evolution experiment",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
+        description="Ray-based parallel 6-condition constitution experiment",
     )
-    parser.add_argument(
-        "--items-per-condition", "-n", type=int, default=200,
-        help="Number of items per condition (default: 200)",
-    )
+    parser.add_argument("-n", "--items-per-condition", type=int, default=1000)
     parser.add_argument(
         "--experiment-id", type=str,
-        default=f"exp_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
-        help="Experiment identifier (default: timestamped)",
+        default=f"rexp_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+    )
+    parser.add_argument("--only", nargs="+", choices=CONDITIONS)
+    parser.add_argument(
+        "-K", "--batch-size", type=int, default=8,
+        help="Mini-batch size per actor (concurrent LLM calls)",
+    )
+    parser.add_argument("--save-every", type=int, default=50)
+    parser.add_argument("--llm-url", type=str, default="http://localhost:8198/v1")
+    parser.add_argument(
+        "--ray-address", type=str, default=None,
+        help="Ray cluster address (default: spawn local)",
     )
     parser.add_argument(
-        "--only", type=str, nargs="+", choices=CONDITIONS,
-        help="Run only specific conditions (e.g. --only wr_neg wor_neg)",
+        "--no-resume", action="store_true",
+        help="Ignore any existing cache and start from scratch",
     )
+    parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
-        "--llm-url", type=str, help="Override vLLM base URL",
-    )
-    parser.add_argument(
-        "--save-every", type=int, default=50,
-        help="Checkpoint every N items (default: 50)",
-    )
-    parser.add_argument(
-        "--dry-run", action="store_true",
-        help="Show dataset selection without running",
-    )
-    parser.add_argument(
-        "--quiet", action="store_true",
-        help="Suppress per-item output",
+        "--reasoning-dataset", type=str, default="mmlu",
+        choices=["mmlu", "math"],
+        help="Reasoning dataset: mmlu (default) or math (Hendrycks MATH)",
     )
 
     args = parser.parse_args()
     conditions = args.only or CONDITIONS
 
+    spec_builder = build_condition_spec_math if args.reasoning_dataset == "math" else build_condition_spec
+
     if args.dry_run:
-        dry_run(args.items_per_condition, conditions)
+        dry_run(args.items_per_condition, conditions, spec_builder=spec_builder)
         return
 
-    asyncio.run(
-        run_experiment(
-            items_per_condition=args.items_per_condition,
-            experiment_id=args.experiment_id,
-            conditions=conditions,
-            llm_url=args.llm_url,
-            save_every=args.save_every,
-            verbose=not args.quiet,
-        )
+    # Build items for each condition
+    print(f"Experiment:       {args.experiment_id}")
+    print(f"Items/condition:  {args.items_per_condition}")
+    print(f"Batch size (K):   {args.batch_size}")
+    print(f"Reasoning:        {args.reasoning_dataset}")
+    print(f"Conditions:       {conditions}")
+    print(f"Ray actors:       {len(conditions)} (one per condition)")
+    print(f"Peak concurrency: up to {len(conditions) * args.batch_size} LLM requests")
+    print(f"LLM URL:          {args.llm_url}")
+    print()
+
+    condition_items = {}
+    for cond in conditions:
+        spec = spec_builder(cond, args.items_per_condition)
+        items = select_items(spec, data_root=DATA_ROOT, seed=42)
+        condition_items[cond] = items
+        print(f"  {cond}: {len(items)} items selected")
+    print()
+
+    from batch_runner import run_all_conditions_ray
+
+    run_all_conditions_ray(
+        condition_items=condition_items,
+        experiment_id=args.experiment_id,
+        llm_url=args.llm_url,
+        batch_size=args.batch_size,
+        save_every=args.save_every,
+        ray_address=args.ray_address,
+        resume=not args.no_resume,
     )
 
 

@@ -1,5 +1,4 @@
-"""EnvAdapter: a small abstraction so the same runner drives matrix games
-(OpenSpiel) today and Melting Pot substrates later.
+"""Environment interfaces and records for OpenSpiel matrix games.
 
 Design constraints:
   - Observations must be renderable as TEXT for the LLM agent.
@@ -57,8 +56,7 @@ class TransitionLog:
 class EnvAdapter(ABC):
     """Joint-action multi-agent env. All players step in lockstep.
 
-    Concrete adapters: MatrixGameAdapter (OpenSpiel), MeltingPotAdapter,
-    and any future substrate.
+    Implemented by MatrixGameAdapter for OpenSpiel.
     """
 
     name: str

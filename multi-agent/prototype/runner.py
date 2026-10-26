@@ -150,16 +150,10 @@ def run_condition(
         store_p1.snapshot(round_idx=0)
 
     # ── Main loop ───────────────────────────────────────────────────
-    # Branch on env semantics: matrix games are one-shot per round (reset
-    # before each); multi-step substrates (Melting Pot) own one persistent
-    # episode and the adapter loops internally until the next interaction.
-    is_episodic = "meltingpot" in env.name or "mp" in env.name
+    # Each round is a fresh one-shot matrix game; agent history persists.
     transitions: List[TransitionLog] = []
-    if is_episodic:
-        obs = env.reset(seed=seed)
     for r in range(num_rounds):
-        if not is_episodic:
-            obs = env.reset(seed=seed + r)
+        obs = env.reset(seed=seed + r)
         a0, _ = agent0.pick_action(step_idx=r, transitions=transitions,
                                     observation=obs[0], total_steps=num_rounds)
         a1, _ = agent1.pick_action(step_idx=r, transitions=transitions,
@@ -172,14 +166,6 @@ def run_condition(
             rewards=list(result.rewards),
             info=result.info,
         ))
-        if is_episodic:
-            obs = result.obs
-            if result.done and r < num_rounds - 1:
-                # Episode ended mid-experiment (MP substrates terminate
-                # stochastically). Start a fresh episode so we can keep
-                # accumulating rounds. Constitution stores persist.
-                obs = env.reset(seed=seed + r + 1)
-
         # Reflection cadence (iterating condition only).
         if condition.iterate and (r + 1) % reflect_every == 0:
             agent0.reflect_and_update(transitions, start=r + 1 - reflect_every,

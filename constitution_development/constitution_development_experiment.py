@@ -38,7 +38,7 @@ os.environ.setdefault("HF_HUB_OFFLINE", "0")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "0")
 
 import config
-from batch_runner_parallel import _format_reference_signal
+from constitution.prompts import format_reference_signal
 from constitution.memory_store import MemoryStore
 from constitution.schema import ConstitutionEntry
 from constitution.store import ConstitutionStore
@@ -389,7 +389,7 @@ class ConstitutionDevelopmentRunner:
             batch = items[batch_start : batch_start + self.batch_size]
             constitution_text = self.store.summary()
             queries = [item.input_text for item in batch]
-            feedbacks = [_format_reference_signal(item) for item in batch]
+            feedbacks = [format_reference_signal(item) for item in batch]
             memory_contexts = await asyncio.gather(
                 *[self._memory_context(query) for query in queries],
                 return_exceptions=True,

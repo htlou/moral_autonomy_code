@@ -6,6 +6,7 @@ from tempfile import TemporaryDirectory
 from scripts.summarize_results import summarize_openspiel
 from sft_data_prep import build_condition_spec
 from dataset.harness.selector import select_items
+from run_experiment import CONDITIONS, build_condition_spec_math
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -28,6 +29,9 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(math[1], historical[1])
         self.assertEqual(build_condition_spec("wor_neg", 10, "math"),
                          build_condition_spec("wor_neg", 10, "mmlu"))
+        for condition in CONDITIONS:
+            self.assertEqual(build_condition_spec_math(condition, 10),
+                             build_condition_spec(condition, 10, "math"))
 
     def test_absent_data_fails_before_running_an_empty_experiment(self):
         with TemporaryDirectory() as root:

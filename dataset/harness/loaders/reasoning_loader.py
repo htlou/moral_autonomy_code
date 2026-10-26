@@ -1,15 +1,17 @@
-"""
-Loaders for MMLU and GPQA.
-"""
+"""MMLU dataset loader."""
+
 
 from __future__ import annotations
 
-import csv
-import random
+
 from pathlib import Path
+
+
 from typing import List, Optional
 
+
 import pandas as pd
+
 
 from ..base import (
     DatasetItem,
@@ -17,10 +19,10 @@ from ..base import (
     ItemKind,
     ReasoningDataset,
 )
-from ..eval.mcq_eval import GPQAEvaluator, MMLUEvaluator, LETTER_MAP
 
 
-# ── MMLU ────────────────────────────────────────────────────────────────────
+from ..eval.mcq_eval import MMLUEvaluator, LETTER_MAP
+
 
 class MMLULoader(ReasoningDataset):
     name = "reasoning/mmlu"
@@ -92,89 +94,6 @@ class MMLULoader(ReasoningDataset):
         )
         return (
             f"Subject: {subj_pretty}\n\n"
-            f"Question: {question}\n\n"
-            f"Options:\n{options}\n\n"
-            "Answer with the letter (A, B, C, or D) of the correct option."
-        )
-
-
-# ── GPQA ────────────────────────────────────────────────────────────────────
-
-class GPQALoader(ReasoningDataset):
-    name = "reasoning/gpqa"
-    category = "reasoning"
-
-    def __init__(
-        self,
-        data_root: str | Path,
-        variant: str = "diamond",
-        seed: int = 42,
-    ):
-        super().__init__(data_root)
-        self.variant = variant  # diamond | main | extended
-        self.seed = seed
-        self._eval = GPQAEvaluator()
-
-    def get_evaluator(self) -> GPQAEvaluator:
-        return self._eval
-
-    def load(self, split: DatasetSplit = DatasetSplit.TEST) -> List[DatasetItem]:
-        csv_path = (
-            self.data_root
-            / "general_reasoning"
-            / "gpqa"
-            / "dataset"
-            / f"gpqa_{self.variant}.csv"
-        )
-        df = pd.read_csv(csv_path)
-        rng = random.Random(self.seed)
-
-        items: List[DatasetItem] = []
-        for idx, row in df.iterrows():
-            correct = row["Correct Answer"]
-            incorrects = [
-                row["Incorrect Answer 1"],
-                row["Incorrect Answer 2"],
-                row["Incorrect Answer 3"],
-            ]
-            # shuffle choices deterministically
-            choices = [correct] + incorrects
-            order = list(range(4))
-            rng.shuffle(order)
-            shuffled = [choices[i] for i in order]
-            correct_letter = LETTER_MAP[order.index(0)]
-
-            items.append(
-                DatasetItem(
-                    id=f"gpqa/{self.variant}/{idx}",
-                    dataset=self.name,
-                    category=self.category,
-                    input_text=self._format_prompt(
-                        row["Question"], shuffled, row.get("Subdomain", "")
-                    ),
-                    kind=ItemKind.GROUND_TRUTH,
-                    ground_truth=correct,
-                    metadata={
-                        "correct_letter": correct_letter,
-                        "choices": shuffled,
-                        "subdomain": row.get("Subdomain", ""),
-                        "domain": row.get("High-level domain", ""),
-                        "record_id": row.get("Record ID", ""),
-                    },
-                )
-            )
-        return items
-
-    @staticmethod
-    def _format_prompt(
-        question: str, choices: list, subdomain: str
-    ) -> str:
-        options = "\n".join(
-            f"  {LETTER_MAP[i]}. {c}" for i, c in enumerate(choices)
-        )
-        header = f"Domain: {subdomain}\n\n" if subdomain else ""
-        return (
-            f"{header}"
             f"Question: {question}\n\n"
             f"Options:\n{options}\n\n"
             "Answer with the letter (A, B, C, or D) of the correct option."

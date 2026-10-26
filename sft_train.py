@@ -12,9 +12,7 @@ Usage:
     python sft_train.py --condition wr_neg --data-dir sft_data/
     python sft_train.py --condition wr_neg --data-dir sft_data/ --epochs 3 --lr 2e-5
 
-    # Via shell wrapper (recommended):
-    bash run_sft.sh --condition wr_neg
-    bash run_sft.sh --all
+    deepspeed --num_gpus 8 sft_train.py --condition wr_neg --data-dir sft_data/ --deepspeed ds_config_zero2.json
 """
 
 from __future__ import annotations

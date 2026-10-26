@@ -1,10 +1,7 @@
 # Artifact provenance and known differences
 
 This release was assembled against the 26-page local manuscript titled
-**AI Alignment Can Build Moral Autonomy**. `source_manifest.json` lists copied
-source paths under the original `mnt/position` and `mnt2/position` roots,
-with source SHA-256 hashes before portability changes. `release_checksums.json`
-records the published files. The manuscript PDF, model weights, third-party
+**AI Alignment Can Build Moral Autonomy**. The manuscript PDF, model weights, third-party
 repositories, raw benchmark corpora, operational logs, and API credentials are
 not part of this release.
 
@@ -41,8 +38,8 @@ is not evidence that a score has been reproduced by the released scripts.
    items per condition; the `wor_*` files contain 10,000 value items each.
    The historical MATH shell pipeline called an SFT data builder that only
    supported MMLU. The release adds `--reasoning-dataset math|mmlu`, preserves
-   MMLU as the standalone SFT default, and makes the MATH pipeline explicitly
-   select MATH. Running the corrected MATH option will create a new experiment;
+   MMLU as the standalone SFT default, and documents explicit
+   MATH selection for new experiments. Running the corrected MATH option will create a new experiment;
    it does not reproduce these historical SFT inputs.
 
 3. **Safety scorers differ across archived files.** The paper specifies
@@ -67,18 +64,12 @@ is not evidence that a score has been reproduced by the released scripts.
    Historical counts and token estimates were not independently re-audited
    during this software release.
 
-6. **Later extensions have additional dependencies.** July Clean Up, Concordia,
-   and interpretability code is retained as additional research, without the
-   multi-gigabyte later runs or activation arrays. Main paper OpenSpiel traces
-   and summary regeneration do not require these optional environments.
-
 ## Portability changes
 
 Model and embedding paths now use public model identifiers or environment
 variables. Runtime paths are relative to the checkout. Conda activation is
 left to the caller. Hardcoded credentials and deployment endpoints were
-removed, as was fallback access to Codex authentication files. Model servers
-started by a launcher are stopped by their recorded PID. Default API model
+removed, as was fallback access to Codex authentication files. Default API model
 configuration uses the paper's 8B model; later 72B experiments can override it.
 The MATH dry-run now inspects the chosen MATH specification, missing datasets
 fail with a preparation hint, and GRPO accepts an explicit step budget.

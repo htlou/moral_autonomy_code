@@ -1,19 +1,22 @@
-# Multi-agent experiments
+# OpenSpiel experiments
 
-`prototype/` contains the original OpenSpiel repeated-game implementation and
-later Clean Up, Concordia, and interpretability extensions. Third-party
-framework checkouts are not vendored.
+`prototype/` implements the paper's repeated matrix games, constitutional
+reflection, and none / fixed / iterating conditions.
 
 From the repository root:
 
 ```bash
-export PYTHONPATH="$PWD/multi-agent:${PYTHONPATH:-}"
-python -m prototype.main --stub --rounds 10
-python -m prototype.tests.test_iterating_grows
-bash scripts/run_openspiel.sh
+python multi-agent/prototype/main.py --stub --rounds 10 --out-dir outputs/smoke
+PYTHONPATH=multi-agent python -m prototype.tests.test_iterating_grows
+python multi-agent/prototype/main.py --seeds 0 1 2 3 4 \
+  --opponents always_cooperate always_defect random --condition all \
+  --rounds 100 --reflect-every 5 --history-window 10 --out-dir outputs/openspiel
 ```
 
-The paper's 45 runs are under `results/openspiel/`. Regenerate statistics with
-`python scripts/summarize_results.py`. See
-[the reproduction guide](../docs/REPRODUCING.md) for the experimental settings
-and optional framework revisions.
+For inference, configure `PROTO_LLM_URL` and `PROTO_LLM_MODEL` for a running
+OpenAI-compatible server. The last command runs all 45 paper conditions;
+add `--stub` to exercise the same design without inference.
+
+Original traces are in `results/openspiel/`. Regenerate their statistics with
+`python scripts/summarize_results.py`, or pass `--openspiel outputs/openspiel`
+to summarize new runs. See [the reproduction guide](../docs/REPRODUCING.md).

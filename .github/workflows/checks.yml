@@ -12,5 +12,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
       - run: PYTHONPATH=multi-agent python -m prototype.tests.test_iterating_grows
+      - run: python multi-agent/prototype/main.py --stub --seeds 0 1 --opponents always_cooperate always_defect random --rounds 10 --out-dir outputs/smoke
+      - run: python scripts/summarize_results.py --openspiel outputs/smoke
       - run: python scripts/summarize_results.py
       - run: python scripts/plot_paper_figures.py
