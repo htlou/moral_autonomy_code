@@ -1,0 +1,1262 @@
+[
+  {
+    "source_root": "mnt/position",
+    "source": "run_experiment.py",
+    "destination": "run_experiment.py",
+    "source_sha256": "eb7a95fae06f23ab75127b5dbbbf03659a90a1ec9a0f478e21435de8fe702e7b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "eval_gen.py",
+    "destination": "eval_gen.py",
+    "source_sha256": "024317f70833967d8f32967d1da27eb672ed7ae63c0e0362b091c8f2200c78b4"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "eval_harm.py",
+    "destination": "eval_harm.py",
+    "source_sha256": "98118e8e8f5e7901e40a786ecfedfe2cf38dca1df8a332410f4c23f5a4dfa577"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "rlvr_data_prep.py",
+    "destination": "rlvr_data_prep.py",
+    "source_sha256": "c0999e50ff26605c9fe5b62ada22758ed96ffddea9ba9c5ee7d8020c4f17f3b6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "merge_experiments.py",
+    "destination": "merge_experiments.py",
+    "source_sha256": "bf3bf52fa9edb763757a5b521dc01bebf642b0dddebf53dbfaa587137b6a66d9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "eval_experiment.py",
+    "destination": "eval_experiment.py",
+    "source_sha256": "f4da90d1ff6ec58faf80475bbffad4fccc1500f43f67536243bcfbf233f18e41"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "plot_results_comparison.py",
+    "destination": "plot_results_comparison.py",
+    "source_sha256": "d6107c663bf31e2647be57ad955223f64372b183d752da450690aab3c4459c65"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "batch_runner_fast.py",
+    "destination": "batch_runner_fast.py",
+    "source_sha256": "0524c3856c7443842623b1035360f16c40cfabff945339cd61e4df7ee7b865f3"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "eval_score.py",
+    "destination": "eval_score.py",
+    "source_sha256": "4c349cbf7ca1100aa7345c2c1932f2e61ef6f085ddaa0e879d82e7de6dd138e4"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "plot_results.py",
+    "destination": "plot_results.py",
+    "source_sha256": "ecb81253a5b23b64556a0d90b956a2fccbe8198aecc71ea6d113dd675c594761"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "rlvr_train.py",
+    "destination": "rlvr_train.py",
+    "source_sha256": "f67741f47eec225ba1bf108cc6576f3f1f618f8703ed6c4f6095ce3b91864bde"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "demo.py",
+    "destination": "demo.py",
+    "source_sha256": "c6d9ff0f23f8f225a15ff9bfbebc3a881aba9099861973b1a6eeca60377dad42"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "eval_gen_sft.py",
+    "destination": "eval_gen_sft.py",
+    "source_sha256": "cdff5c30a74333c653d03009ffe07d648d07d37b34ff51d4cb552cb36293819d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "sft_data_prep.py",
+    "destination": "sft_data_prep.py",
+    "source_sha256": "3ed7621291aacda3f2e81aef51560f2a5ef7d3b503a91293898d6a976b9e5bfa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "batch_runner.py",
+    "destination": "batch_runner.py",
+    "source_sha256": "ed5ef8251008fa93b880a178518cc7e1f798f4f17ba2bfe7279d5eea7ac0576d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "snapshot.py",
+    "destination": "snapshot.py",
+    "source_sha256": "06eba4fefba7c6965f5401079acb18b758eb6516d19aae7c128ce2c15acb1b22"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "make_sft_math_rlvr_chart.py",
+    "destination": "make_sft_math_rlvr_chart.py",
+    "source_sha256": "5abc1ab5c6264b0fc6d20c0ea1abcf3f46510ac8a9cee78f29d2f3da556dcd76"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_batch.py",
+    "destination": "run_batch.py",
+    "source_sha256": "54c1bb2a8ac829f101e44388ef2003434d411100df0d4a6de41f17201789a378"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_experiment_ray.py",
+    "destination": "run_experiment_ray.py",
+    "source_sha256": "d838d0f03e1085dad70669034de1443e5decd0e83e0f6fcdb8a541a35650b467"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "batch_runner_ray.py",
+    "destination": "batch_runner_ray.py",
+    "source_sha256": "6b31d0a0fc51abf2c9492064a3aefc17eb1a7eadfac6a60bb850231760dd34b4"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "benchmark_runners.py",
+    "destination": "benchmark_runners.py",
+    "source_sha256": "44853dba91fe6cfae015412c867c20b00792b0615cd44b0642b16eec5dba4c6b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "sft_train.py",
+    "destination": "sft_train.py",
+    "source_sha256": "2e5fb538c1ca1cf7a23d7cda0faacb86c0880f0396fd64989b4399a56cfcd81c"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "batch_runner_parallel.py",
+    "destination": "batch_runner_parallel.py",
+    "source_sha256": "592e2989f6c0c01544cdbeb7381b77ef361d13c7bb361bfc2a98335bcc388df7"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "config.py",
+    "destination": "config.py",
+    "source_sha256": "279d799b8698249880d6ec1125af4babc536bb399b2dd03a7a7c4c08622ffa29"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "rlvr_reward.py",
+    "destination": "rlvr_reward.py",
+    "source_sha256": "16bcf484c144a5d100b4a3703d4e5e40a912e8d1a67dd4248180065d40e14499"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_experiment_parallel.py",
+    "destination": "run_experiment_parallel.py",
+    "source_sha256": "6f613dbb247b8a482583514ed423b7583165217ba9c3e28e49d737321fd26b79"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/store.py",
+    "destination": "constitution/store.py",
+    "source_sha256": "c738357bef46013286e1983c2587c288ea3322dfd639263650caef8dafac2f2e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/__init__.py",
+    "destination": "constitution/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/prompts.py",
+    "destination": "constitution/prompts.py",
+    "source_sha256": "656d24440df91841c6bc598e3ec0fd58c325b98ac0828fb8f8065db4941b43e1"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/lite_store.py",
+    "destination": "constitution/lite_store.py",
+    "source_sha256": "609384e9c5161444a309b9237b58337a693ef75ed3b2326d7077a1651ed4eb52"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/memory_store.py",
+    "destination": "constitution/memory_store.py",
+    "source_sha256": "665711c0108c961592704fffb9c485fa505a6aa54f03dcb0045ced709f93624f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "constitution/schema.py",
+    "destination": "constitution/schema.py",
+    "source_sha256": "515eb6f8a0c606080113f3ac2571fb497bd3b831f58cd0b1ba8fc36fc77e89ed"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "pipeline/__init__.py",
+    "destination": "pipeline/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "pipeline/orchestrator.py",
+    "destination": "pipeline/orchestrator.py",
+    "source_sha256": "753d78dfe2e1179bad78cb34e243570da773c827cfdcca21e055b956be46e15a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "server/app.py",
+    "destination": "server/app.py",
+    "source_sha256": "6b5c04b78fa66587b81cc5d6baab546cd86a25dbb7d9efafd09a47fc37906d2d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "server/__init__.py",
+    "destination": "server/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/__init__.py",
+    "destination": "dataset/harness/__init__.py",
+    "source_sha256": "f554304493fdf58590f9e0d46843498d19184efb8867a4824b904b2e57b06a76"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/selector.py",
+    "destination": "dataset/harness/selector.py",
+    "source_sha256": "d88b9798ccd7d60c1bedcb96798a7233231e9a4f6d9aec22104e6c839ce3c1b8"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/registry.py",
+    "destination": "dataset/harness/registry.py",
+    "source_sha256": "bb8d1a2708f842805f34bf3cbe0b6277e8cbe4401b21e333ee3a851738d6c615"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/base.py",
+    "destination": "dataset/harness/base.py",
+    "source_sha256": "5df0dd1a937a20d9fd9fa67037e5e195e2f8459650470edf7bd42dc54e95b435"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/reasoning_loader.py",
+    "destination": "dataset/harness/loaders/reasoning_loader.py",
+    "source_sha256": "5cd4d8671fc80bac39c0750017612c6a84d780cab91db3dd32531dae7b96be3f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/math_loader.py",
+    "destination": "dataset/harness/loaders/math_loader.py",
+    "source_sha256": "f8dc2acc56eb50c96557d9714c619a9c9870a337142c490215d6074a37e41503"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/safety_loader.py",
+    "destination": "dataset/harness/loaders/safety_loader.py",
+    "source_sha256": "f2823605dbe23db3de890a29eb13e0bc64f99990b363a608859808d8691a0c64"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/__init__.py",
+    "destination": "dataset/harness/loaders/__init__.py",
+    "source_sha256": "c8ae4aee6e08228d1407ffffaa04d5a31f66ba2886461de1ee7d70ac4f9c8975"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/code_loader.py",
+    "destination": "dataset/harness/loaders/code_loader.py",
+    "source_sha256": "656b9640ece796edf8f5730f473cd6e53944d17f1204ab6a61c0cfb1c132bcbc"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/loaders/value_loader.py",
+    "destination": "dataset/harness/loaders/value_loader.py",
+    "source_sha256": "a0a2ef8d4c9956b9f56357a767ebd4e6eacf6153367de34156ae847f99330519"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/eval/__init__.py",
+    "destination": "dataset/harness/eval/__init__.py",
+    "source_sha256": "d6cd340ce2ee43bcca2abdcbe59047438fcc1dc04f995ca6a2b057ab4226f993"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/eval/math_eval.py",
+    "destination": "dataset/harness/eval/math_eval.py",
+    "source_sha256": "60b77c2cff5f6e00c582f49da37d5646d51c13cc695e4281b322908eb6e8bad3"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/eval/mcq_eval.py",
+    "destination": "dataset/harness/eval/mcq_eval.py",
+    "source_sha256": "db5d1b44328786d8aab84a96c6ba0e8252ffd5a86f99c10ce25cbd563488bc3a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "dataset/harness/eval/code_eval.py",
+    "destination": "dataset/harness/eval/code_eval.py",
+    "source_sha256": "6b8f732fd185d0ded9e885c3efa7c25b04cc40ba718afe33db7e86e83301f909"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/aggregate_concordia.py",
+    "destination": "multi-agent/prototype/aggregate_concordia.py",
+    "source_sha256": "efc0a3dac92ff7affed93e510d814ceacb89f705a3adc73cc8b332d915a44950"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/analyze_constitution_dynamics.py",
+    "destination": "multi-agent/prototype/analyze_constitution_dynamics.py",
+    "source_sha256": "425a6fa9e546fd3bfb657369580b6737038b4a66c12f0b2677d62c8ba542f4a6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/store.py",
+    "destination": "multi-agent/prototype/store.py",
+    "source_sha256": "9f84692e88622df679d6da7412ad2325e003d9087d869f61387711764a89d82e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_mp.py",
+    "destination": "multi-agent/prototype/run_mp.py",
+    "source_sha256": "c325aaf9f7ef129c574f1462c15d2e52728e38331fcdd4f60b01090374e8656d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/aggregate_ablation.py",
+    "destination": "multi-agent/prototype/aggregate_ablation.py",
+    "source_sha256": "b3f52ca6ebe771bb73e9a3df0963a3d79f3387684b2644be4f54612668fe1dd0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/__init__.py",
+    "destination": "multi-agent/prototype/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/llm.py",
+    "destination": "multi-agent/prototype/llm.py",
+    "source_sha256": "5e84aacc5eca3f6321145dbd96112b9caa8a5247270a945cf7fb0858cc24ad29"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/analyze.py",
+    "destination": "multi-agent/prototype/analyze.py",
+    "source_sha256": "613365e0bef234946dfb545e14e7e28c480c7e514845befec0e724a1834667ee"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/concordia_extended_causal_experiment.py",
+    "destination": "multi-agent/prototype/concordia_extended_causal_experiment.py",
+    "source_sha256": "20dcd56804ef9ad64dc47a646c7f694b68f545a21e1a08f53d4f0c3f953d90be"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/aggregate_concordia_extended.py",
+    "destination": "multi-agent/prototype/aggregate_concordia_extended.py",
+    "source_sha256": "312b0ce4b5ce6084bbdbd9fa17fcf90a115aec5469c73ea79c72d70e5d8c3e2d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runner.py",
+    "destination": "multi-agent/prototype/runner.py",
+    "source_sha256": "b6d90c76fb6c3c2745c448739bd1bc1d6e1afd857088b48c8c9820abea0ef2f5"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/analyze_constitution_dynamics_granular.py",
+    "destination": "multi-agent/prototype/analyze_constitution_dynamics_granular.py",
+    "source_sha256": "9af64810a6de4f5c96b00ccdf9c5f74436f79a1eb70261b57bdc8b23fc40223b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/concordia_pub_coordination_experiment.py",
+    "destination": "multi-agent/prototype/concordia_pub_coordination_experiment.py",
+    "source_sha256": "a1513e0cdfb213881054ec76b7359e2df16af8291aa379baa3cee73be074dc40"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/agent.py",
+    "destination": "multi-agent/prototype/agent.py",
+    "source_sha256": "c34d13954a65c4f28a3a8daa39bd758573005f69ad62e4bfca21c071893dccc3"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/aggregate_clean_up.py",
+    "destination": "multi-agent/prototype/aggregate_clean_up.py",
+    "source_sha256": "a4be347be162739fd2c509006dc43224ed281992a841480167f340867ddd91bf"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/prompts.py",
+    "destination": "multi-agent/prototype/prompts.py",
+    "source_sha256": "7c502262f9a8d9038fcc50cdfd06498b1ee071a3f3e17a9f5a4a39c77eb1700d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/clean_up_experiment.py",
+    "destination": "multi-agent/prototype/clean_up_experiment.py",
+    "source_sha256": "a2cb1067e17597c15067011bc271bfb3f6e807893de827478830125da5f295b6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/config.py",
+    "destination": "multi-agent/prototype/config.py",
+    "source_sha256": "13b7a48da9181c0808e3da0859f81f632d58313e2c211fca10b93ffd9a261c95"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/main.py",
+    "destination": "multi-agent/prototype/main.py",
+    "source_sha256": "cb749abf9040b2111c6044e2fa12f23c75606ad07db8565fcbd04b75b0f05204"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/aggregate.py",
+    "destination": "multi-agent/prototype/aggregate.py",
+    "source_sha256": "d3baa31c12e11331f1760f2fe1220c33e56131e1d9f48a7709e1f40ae55c4163"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/merge_gate_localizations.py",
+    "destination": "multi-agent/prototype/interpretability/merge_gate_localizations.py",
+    "source_sha256": "0fff078962529e994027bc1ee68130bb1ca733d9e3b7364331d728af9ca606ab"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/localize_gate_interaction.py",
+    "destination": "multi-agent/prototype/interpretability/localize_gate_interaction.py",
+    "source_sha256": "4c23f3458204c484a2bc2ae3a9650b8fc9a189a4eda81d520edd0e2403f18979"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/fit_specificity_controls.py",
+    "destination": "multi-agent/prototype/interpretability/fit_specificity_controls.py",
+    "source_sha256": "0ed2e132d9829dce18f7507eabdc1c78e566ba051e9704df3f8398478466bcec"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/__init__.py",
+    "destination": "multi-agent/prototype/interpretability/__init__.py",
+    "source_sha256": "1391c26b1c4257e223aaaa2bf0716416e7054266812c48b2b6534ffce081930f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/model_utils.py",
+    "destination": "multi-agent/prototype/interpretability/model_utils.py",
+    "source_sha256": "c3a4bd79e8e11a8e9d7c58797c3a2e7fb67ff34c24fa9bee484cf9b9244a1e95"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/fit_subspace.py",
+    "destination": "multi-agent/prototype/interpretability/fit_subspace.py",
+    "source_sha256": "9f323642feb9e7af8a7fa570067c60565bd71669aa8ffce0c8602a31481c6563"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/train_sae.py",
+    "destination": "multi-agent/prototype/interpretability/train_sae.py",
+    "source_sha256": "8b8624f5057f883e17e7ea2ed37ee639312e0c6248002680bae7b324be81ef1e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/patch_gate_interaction.py",
+    "destination": "multi-agent/prototype/interpretability/patch_gate_interaction.py",
+    "source_sha256": "03ef38f034721980fe8537ede445ce24c55bbd33a12a7409d46466168de06c2d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/steer_subspace.py",
+    "destination": "multi-agent/prototype/interpretability/steer_subspace.py",
+    "source_sha256": "acbf558adb9ec046d081ce4b2f7521f41f08884f40c22113fbfec01aeefef188"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/steer_factorial.py",
+    "destination": "multi-agent/prototype/interpretability/steer_factorial.py",
+    "source_sha256": "b49ace9159b82ba34cf275764edf95e2d21204d8920240bd6c7f70ab5b9dff28"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/fit_factorial_axes.py",
+    "destination": "multi-agent/prototype/interpretability/fit_factorial_axes.py",
+    "source_sha256": "b89eef8f73736e3e71d726c00ed519af6e98e933e9a5d7baab995ac32994e004"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/extract_activations.py",
+    "destination": "multi-agent/prototype/interpretability/extract_activations.py",
+    "source_sha256": "4b97c1b09837b74f8b2cdc7f6a29fcc833e138c8c78f62ba9a64b29feb658cdf"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/analyze_specificity_controls.py",
+    "destination": "multi-agent/prototype/interpretability/analyze_specificity_controls.py",
+    "source_sha256": "5ef3017baa40875725e0f5037ab26c2dd50d6f2ab9344b1add51f408c28a3ca2"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/analyze_authority_dose.py",
+    "destination": "multi-agent/prototype/interpretability/analyze_authority_dose.py",
+    "source_sha256": "8c08631a0e089226cd5c13d8ea3b2678a32c10a0a33753569721ac3e9dfe2862"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/project_jlens.py",
+    "destination": "multi-agent/prototype/interpretability/project_jlens.py",
+    "source_sha256": "524fa8ebd44449d166e19e295f480e75fc951ed2374d04268cc2ea54db2f9791"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/constitution_events.py",
+    "destination": "multi-agent/prototype/interpretability/constitution_events.py",
+    "source_sha256": "6722cf96d102c86d31944fd2e57a598cc0c78f1121205a85d80aa8cf2a6c716c"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/analyze_authority_layers.py",
+    "destination": "multi-agent/prototype/interpretability/analyze_authority_layers.py",
+    "source_sha256": "4422d1ad827ee2d601cafd9e2778e9da42718e24496179fd107e3e438848f05a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/factorial_gate_events.py",
+    "destination": "multi-agent/prototype/interpretability/factorial_gate_events.py",
+    "source_sha256": "6c50afff09482466ac2d2766f0fe6fbb00c99ea1e5351722dc53d064e9304d64"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/reparse_steering.py",
+    "destination": "multi-agent/prototype/interpretability/reparse_steering.py",
+    "source_sha256": "6a7ce4ce5b0a08395dfc2117e2af5f796a0b7f3ba486be9d36b05b99d16791ac"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/project_authority_force.py",
+    "destination": "multi-agent/prototype/interpretability/project_authority_force.py",
+    "source_sha256": "f472bb1500e2c5d802ce69026b9e676b23b8fe75954f4365122ba017802ee5db"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/test_iterating_grows.py",
+    "destination": "multi-agent/prototype/tests/test_iterating_grows.py",
+    "source_sha256": "3c4ef0687659bf7e64c1c06032aca6d22a6cc6c533841cf7053860c0c5aade73"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/test_constitution_interpretability.py",
+    "destination": "multi-agent/prototype/tests/test_constitution_interpretability.py",
+    "source_sha256": "3ce33edc96aa42e324b0143aa0f6277eb2bfc7b4205cc1271fcb16e210366ae6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/test_clean_up_causal.py",
+    "destination": "multi-agent/prototype/tests/test_clean_up_causal.py",
+    "source_sha256": "4a474469fc9a34f86cdd91516c0feb8b611e4f0c391ba4822e180700f6e6fef0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/__init__.py",
+    "destination": "multi-agent/prototype/tests/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/test_concordia_extended_causal.py",
+    "destination": "multi-agent/prototype/tests/test_concordia_extended_causal.py",
+    "source_sha256": "f406fc20e674b1a22dfdc9e18ef53fedb471aed15b7a876b54cbf3de1ddad413"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/tests/test_concordia_causal.py",
+    "destination": "multi-agent/prototype/tests/test_concordia_causal.py",
+    "source_sha256": "4a081b07fc530cd55a4a4a0297ad8da314477a301ea964f1802be824fbd0b625"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/mp_controller.py",
+    "destination": "multi-agent/prototype/envs/mp_controller.py",
+    "source_sha256": "52244223184efe561d435badd7d36de9eeb6bc1e777476cda3adaffb47371bd6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/clean_up.py",
+    "destination": "multi-agent/prototype/envs/clean_up.py",
+    "source_sha256": "e25e3d7adc899d9eee1e578d8b4a265f931e0041ff6ff577a0839015aecba0be"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/__init__.py",
+    "destination": "multi-agent/prototype/envs/__init__.py",
+    "source_sha256": "ecaee1d9b3fdbc7ccab3f7da70e91d1dcbc3aac54764f4b14c0ea05028b02b7b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/melting_pot.py",
+    "destination": "multi-agent/prototype/envs/melting_pot.py",
+    "source_sha256": "dd5ad6be83d7b50ae8da12ac6ea74a8729db55840949aaedaebc2b66816d27e9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/base.py",
+    "destination": "multi-agent/prototype/envs/base.py",
+    "source_sha256": "1557d048e3893aaae4c7118ab7dd41feede58a615a6abbe5669cc857dd40fedd"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/mp_world.py",
+    "destination": "multi-agent/prototype/envs/mp_world.py",
+    "source_sha256": "169a08e2de3f1539eb08f7c3243f54f67b46449cd73a574a6f0728efa782c640"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/envs/matrix_game.py",
+    "destination": "multi-agent/prototype/envs/matrix_game.py",
+    "source_sha256": "9587cea484a92191c27eb47b322048d3ca1da3bfb5585bbce30574ba73b80daa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_all_8b.sh",
+    "destination": "run_all_8b.sh",
+    "source_sha256": "7689a5a16bb5379a83a11fae9eef646e6f1d2e27de9a17b8f09c00c08cb095a0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_all_8b_math.sh",
+    "destination": "run_all_8b_math.sh",
+    "source_sha256": "c362e8a7ec6bdbbcb6bad390bac18934669c8da0db3a23debc67235cf573de13"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_all_8b_rlvr.sh",
+    "destination": "run_all_8b_rlvr.sh",
+    "source_sha256": "1fb9ca1ef59685e032946c38856921576db0611563db550e67f8805efcfc277f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_sft.sh",
+    "destination": "run_sft.sh",
+    "source_sha256": "06ac06d31721d9d2bbdaa2e0ca391d741d8929fb13df012b5a53ff0fec317aa0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_eval.sh",
+    "destination": "run_eval.sh",
+    "source_sha256": "52c4dc470f356d8b2c632a9d538246843aa92d3582a85476c8c9769142cd8aac"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_eval_sft.sh",
+    "destination": "run_eval_sft.sh",
+    "source_sha256": "ba91bc3b5a61540c103531708e0e29e3e91d0b68ed949b2b935d19104ce1da18"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_server.sh",
+    "destination": "run_server.sh",
+    "source_sha256": "681e0d4c4da723673be456649a69662ad2c680f1b0e7770c25641a230e17fe7f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "run_demo.sh",
+    "destination": "run_demo.sh",
+    "source_sha256": "2e2a92a183b5c295e03e177fb522f032022b2e78cd6b8755d96ae43a199ce19b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero2.json",
+    "destination": "ds_config_zero2.json",
+    "source_sha256": "4fec99d5c0003fdd66812fa0ac4e36c64eb7e0e1f347b15f60bcf1a13d4a3d28"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero3_rlvr_fp16.json",
+    "destination": "ds_config_zero3_rlvr_fp16.json",
+    "source_sha256": "398ef151fab16eae5e952b7ba4a9b005ef25c80ff6c5395c9befafb29a8d2dbb"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero2_rlvr_fp16.json",
+    "destination": "ds_config_zero2_rlvr_fp16.json",
+    "source_sha256": "606e189f3089058442457df1747044cbd2b7b1ad9a6f3b2827b73cf3f187c2e7"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero3_rlvr.json",
+    "destination": "ds_config_zero3_rlvr.json",
+    "source_sha256": "6ae9ee9daeb6219df67d3e7cf0f956fb55a51878351d8e43adff7bacb2941be6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero2_rlvr.json",
+    "destination": "ds_config_zero2_rlvr.json",
+    "source_sha256": "ef9b6ea68ef2153a16a1a53ecca7900a62e0f03ea1d68d5e4f8100c1ce6cda55"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "ds_config_zero3.json",
+    "destination": "ds_config_zero3.json",
+    "source_sha256": "386102d842358fea24fcae6ff3d4f19ceb61f93dc9cef468743a82d427dbcf7f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_constitution_factorial.sh",
+    "destination": "multi-agent/prototype/run_constitution_factorial.sh",
+    "source_sha256": "a6b16b6c58247c93cf31b631c989dfe531dac8757dbeb5cc448e2e90563aa0e0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_constitution_interpretability.sh",
+    "destination": "multi-agent/prototype/run_constitution_interpretability.sh",
+    "source_sha256": "83c4e51665d4167b9c6caebfe7b2cfe181dba8a6a5630725337b38bd612732af"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_clean_up_causal.sh",
+    "destination": "multi-agent/prototype/run_clean_up_causal.sh",
+    "source_sha256": "0dc27c26b021963dc9fa6fd875fd578f4490577c7c4154457685bb1c8432efbd"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_concordia_causal.sh",
+    "destination": "multi-agent/prototype/run_concordia_causal.sh",
+    "source_sha256": "ddd946861ca9001bec4372c7ed85c7c68d23a84328aac0fed6f535a97fb450d3"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/run_concordia_extended_causal.sh",
+    "destination": "multi-agent/prototype/run_concordia_extended_causal.sh",
+    "source_sha256": "bcc9fc06b81ead0375ebc6adb215a0a3d97714b736b38f03a2a8eb96a80f5da1"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/constitution_development_experiment.py",
+    "destination": "constitution_development/constitution_development_experiment.py",
+    "source_sha256": "4306c622136af41c5afc51c649bcbfe4ea747dad77b581ee834886ee7f161f5a"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/closed_model_ablation_gpt54.py",
+    "destination": "constitution_development/closed_model_ablation_gpt54.py",
+    "source_sha256": "d6aea871078c7fc42d8365375942e2cbde6a6059181d2247432af4c9bb193e4d"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/run_constitution_development.sh",
+    "destination": "constitution_development/run_constitution_development.sh",
+    "source_sha256": "7c2cc5d5363ff86649f4e108e8d54fae439366ebb1118c1202de9ec160abf7e1"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/plot_hsd_split.py",
+    "destination": "authenticity_graph/plot_hsd_split.py",
+    "source_sha256": "ab86b4ab809cc5ae1dfaff1d0f73039b0a2b6ccad85f910083af9235550936ba"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/research_log.md",
+    "destination": "authenticity_graph/research_log.md",
+    "source_sha256": "86d881f288fd329d7e2a23b0886fea3656cda9037f22ef4834fa9b3ba28104d9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/authenticity_analysis.md",
+    "destination": "authenticity_graph/authenticity_analysis.md",
+    "source_sha256": "b08d0d94ab7e1c6e9512ab05096cce4934a3df1c8e397bb72738fdfc3c8002b5"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/new_graph/graph.py",
+    "destination": "authenticity_graph/new_graph/graph.py",
+    "source_sha256": "8335dd07a103d75b72e58152bfe1cdb651f8b7969064710281f1094361e77bc1"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/new_graph/plot_hsd.py",
+    "destination": "authenticity_graph/new_graph/plot_hsd.py",
+    "source_sha256": "315a6db37d0bab2f6d5507cd2bb8890caaac2e89cdc90a6da7253d703491eae7"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "authenticity_graph/new_graph/graph_names.py",
+    "destination": "authenticity_graph/new_graph/graph_names.py",
+    "source_sha256": "748c54df42bc8f8f817fcb8b87ef017a4329e0dc50b8721b6136225fc75ed933"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "supplementary/multiagent_core.py",
+    "destination": "supplementary/multiagent_core.py",
+    "source_sha256": "1c9e7d09df018bec7f06d41e8c5b6157008a516dbe9cb0d499ef8851e3319667"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "supplementary/hsd_core.py",
+    "destination": "supplementary/hsd_core.py",
+    "source_sha256": "5d6b2e590da3f15b087736e320df0c031dffe6518311eacee15e493a353f3be6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "supplementary/ral_core.py",
+    "destination": "supplementary/ral_core.py",
+    "source_sha256": "b72971f78d12181987d59914b86946453a35961970c91f24e8586fb429c687b9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/interpretability/README.md",
+    "destination": "multi-agent/prototype/interpretability/README.md",
+    "source_sha256": "9cde761b32674a77156c2c7bf9d0aa3070ecad5a09f28b793d299e72579eb802"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_active_good_bad.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_active_good_bad.csv",
+    "source_sha256": "8f4a6914d99e6c1bf9dc3c7d3218f841a482b553d605edf76d3f6aec0ba7b281"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_active_entry_classification_audit.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_active_entry_classification_audit.csv",
+    "source_sha256": "53991839378a383de02cf659591443010d931e9fcf02cac38f57175db6d6f7eb"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_evolution_main_mean_std.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_evolution_main_mean_std.csv",
+    "source_sha256": "9b256b07988bbe3d1bb8e123817e08eaa15e0f5fab8a8f34ffe3cd5ef6f611aa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_evolution_all_records.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_evolution_all_records.csv",
+    "source_sha256": "9b256b07988bbe3d1bb8e123817e08eaa15e0f5fab8a8f34ffe3cd5ef6f611aa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_evolution_appendix_seed_lines.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_evolution_appendix_seed_lines.csv",
+    "source_sha256": "9b256b07988bbe3d1bb8e123817e08eaa15e0f5fab8a8f34ffe3cd5ef6f611aa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_constitution_evolution.csv",
+    "destination": "results/constitution_dynamics/openspiel_constitution_evolution.csv",
+    "source_sha256": "36dceabac20de3fed084dd4a0d919b865c2e4f4bcbd44be0db6664b9bf4898c2"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "openspiel_trace_inventory_only.csv",
+    "destination": "results/constitution_dynamics/openspiel_trace_inventory_only.csv",
+    "source_sha256": "9557e486cfbeb5be43e263b402f04ba477932ee80d0569e627dc069aafd8366a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__iterating__seed1/iterating.json",
+    "destination": "results/openspiel/always_defect__iterating__seed1/iterating.json",
+    "source_sha256": "bd60f190b00859f18131c833d028cc6fb6b3e8923a2704a5c876db91f2cdc178"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__none__seed2/none.json",
+    "destination": "results/openspiel/always_defect__none__seed2/none.json",
+    "source_sha256": "7cf9f64cddaaceb5bf56df3724551b6a2733c61c312f279ec7119dc0d3cbe867"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__fixed__seed4/fixed.json",
+    "destination": "results/openspiel/always_cooperate__fixed__seed4/fixed.json",
+    "source_sha256": "e3955cf79286fe0daf2c2377cc7d9b01cad4f20e80efd2391690fe6eb2153f94"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__none__seed3/none.json",
+    "destination": "results/openspiel/random__none__seed3/none.json",
+    "source_sha256": "e11fec713b4bba589f01ec7dc6c342e1e3bd48b14a3c01d8848bb5238827826e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__none__seed3/none.json",
+    "destination": "results/openspiel/always_defect__none__seed3/none.json",
+    "source_sha256": "ff037cf18c5b6c70f1c4e7e87fc8472fa67943a1fba86b9529075a986b3e0396"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__none__seed1/none.json",
+    "destination": "results/openspiel/random__none__seed1/none.json",
+    "source_sha256": "826a8b806637cdd46b9e31c743c64229590f5f2f9602aeeb1dac2db107479ed0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__fixed__seed0/fixed.json",
+    "destination": "results/openspiel/always_cooperate__fixed__seed0/fixed.json",
+    "source_sha256": "9a547c78f51c19e93781ed88129ce66899c0ae65807d73540cfa8c54e9af6e67"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__fixed__seed2/fixed.json",
+    "destination": "results/openspiel/always_defect__fixed__seed2/fixed.json",
+    "source_sha256": "644e3774f326fa12c993a04443be499143b122e9306fcbbe38697904402bd6c3"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__none__seed4/none.json",
+    "destination": "results/openspiel/random__none__seed4/none.json",
+    "source_sha256": "4cd9eb90a2028eb6d4873125165b780e0181339da86abe0674a6204ba42868fa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__fixed__seed1/fixed.json",
+    "destination": "results/openspiel/random__fixed__seed1/fixed.json",
+    "source_sha256": "e697284555ea2018e883d18b010a020078864888248d75536da7088cd4e90159"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__fixed__seed4/fixed.json",
+    "destination": "results/openspiel/random__fixed__seed4/fixed.json",
+    "source_sha256": "fca8fb2007dcd6d447ab66e6fcfe5e753d68f54653a02ffcd550d8eeeb65d84f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__iterating__seed4/iterating.json",
+    "destination": "results/openspiel/always_defect__iterating__seed4/iterating.json",
+    "source_sha256": "536c45542ec04b6282e77c10b01b27b7b6d9586fb634de80ef8fc7025dbd9104"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__iterating__seed3/iterating.json",
+    "destination": "results/openspiel/random__iterating__seed3/iterating.json",
+    "source_sha256": "6f9733415c49a8c3c3c84467dde05d7c0120c34ec1712faa9db4e32b84b277e6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__none__seed1/none.json",
+    "destination": "results/openspiel/always_defect__none__seed1/none.json",
+    "source_sha256": "2680150ea60725f777f4fab76f08eecb881b95488137840f9f8526b9abeca2b4"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__iterating__seed0/iterating.json",
+    "destination": "results/openspiel/random__iterating__seed0/iterating.json",
+    "source_sha256": "dd905ae1436f9843ba6dd6e6f49af34b1cf2922e16a6f064848be159717b7020"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__iterating__seed0/iterating.json",
+    "destination": "results/openspiel/always_cooperate__iterating__seed0/iterating.json",
+    "source_sha256": "2a580f5be00d222373c0b0485aabd4715324ab1cf20c5719677e463d20d89aa7"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__iterating__seed3/iterating.json",
+    "destination": "results/openspiel/always_cooperate__iterating__seed3/iterating.json",
+    "source_sha256": "8b0a9bf343593b1501d7a6b5e9aff77146641b69743ed281c52dc6836e969ff6"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__none__seed3/none.json",
+    "destination": "results/openspiel/always_cooperate__none__seed3/none.json",
+    "source_sha256": "ebeabc0f3820dabaa7432baf2bb63714c707b75bb710afc7344baf713940a0ec"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__fixed__seed1/fixed.json",
+    "destination": "results/openspiel/always_defect__fixed__seed1/fixed.json",
+    "source_sha256": "1bd75f0930fae658bb2a47722516fc5953d1dfd9f27c0b85003a57847020087f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__none__seed1/none.json",
+    "destination": "results/openspiel/always_cooperate__none__seed1/none.json",
+    "source_sha256": "00c8b915c97fb9615052f3da79f267d08b96bf517632d41512b51b04dd1f8155"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__fixed__seed4/fixed.json",
+    "destination": "results/openspiel/always_defect__fixed__seed4/fixed.json",
+    "source_sha256": "d69c2962c2fda1d901f15c0c994bedd6512c171f0afc2a5583bd6f2db017ac9b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__fixed__seed0/fixed.json",
+    "destination": "results/openspiel/random__fixed__seed0/fixed.json",
+    "source_sha256": "2786b5667c4fa5a44b4e8389c474429ce0df0e9705c5281047226e51db2f5527"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__none__seed4/none.json",
+    "destination": "results/openspiel/always_defect__none__seed4/none.json",
+    "source_sha256": "cb5a2b3abac6bc1ddcb062287f47feb6ade46314662979f24fe388225c8121b9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__none__seed2/none.json",
+    "destination": "results/openspiel/always_cooperate__none__seed2/none.json",
+    "source_sha256": "7d3a2307d10974c4e22e927ae66a2fbeaac82797b6a5cde737ced6f8f72f9c4e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__none__seed0/none.json",
+    "destination": "results/openspiel/always_defect__none__seed0/none.json",
+    "source_sha256": "66824d0fbab281f621ed80b4384fb16baeb9e905970775ceacf176d14490528d"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__iterating__seed4/iterating.json",
+    "destination": "results/openspiel/random__iterating__seed4/iterating.json",
+    "source_sha256": "cb8762c5b974b1a77cd70e299d4d5079674175d1d57cfbfead8fd64063edc6f0"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__iterating__seed2/iterating.json",
+    "destination": "results/openspiel/always_cooperate__iterating__seed2/iterating.json",
+    "source_sha256": "c92e0f5db7d0dac813513cda8df3c87ba477bab240ca66412b8af30299d5ee5b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__fixed__seed1/fixed.json",
+    "destination": "results/openspiel/always_cooperate__fixed__seed1/fixed.json",
+    "source_sha256": "f45976e983af9e2ff0d16fd4e5f1661ba44ef55d9df3327f8fe56d162628611e"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__none__seed4/none.json",
+    "destination": "results/openspiel/always_cooperate__none__seed4/none.json",
+    "source_sha256": "e2eb2a07227e2a394674c9c56dde5585a08060f5c0a4a2d5137cdcc7252d6256"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__iterating__seed1/iterating.json",
+    "destination": "results/openspiel/always_cooperate__iterating__seed1/iterating.json",
+    "source_sha256": "eee03ee0ff968bdeff8a5b836e127a3a4f8c348da2b91ecb42464b6d29b73d57"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__iterating__seed1/iterating.json",
+    "destination": "results/openspiel/random__iterating__seed1/iterating.json",
+    "source_sha256": "584f55eb7ecd18d05763d8a63efff7336560b939540a04e7ed9e151c498583e1"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__none__seed2/none.json",
+    "destination": "results/openspiel/random__none__seed2/none.json",
+    "source_sha256": "93225900e682c55f4c3b3973ae21b51724109fa389b2b05a00114282fd498d59"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__iterating__seed2/iterating.json",
+    "destination": "results/openspiel/always_defect__iterating__seed2/iterating.json",
+    "source_sha256": "4da3ce38e1e44643a2cf62093b656697d0443e4c128adac5a44b3e703f541e99"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__fixed__seed3/fixed.json",
+    "destination": "results/openspiel/always_defect__fixed__seed3/fixed.json",
+    "source_sha256": "7f55d17e356c0cecac39368a40c732f62fea8e3c7abf567fdea53b2f11f1a23a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__none__seed0/none.json",
+    "destination": "results/openspiel/random__none__seed0/none.json",
+    "source_sha256": "e6aab99df3144114d9a1501a214028f1563dbbd17a0e85b1d47bcf6e2287286c"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__fixed__seed2/fixed.json",
+    "destination": "results/openspiel/always_cooperate__fixed__seed2/fixed.json",
+    "source_sha256": "e8cdfd445808a7fc1625b769522a82bab1359ddeb22a80963e18ff7a46dc4aaa"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__fixed__seed0/fixed.json",
+    "destination": "results/openspiel/always_defect__fixed__seed0/fixed.json",
+    "source_sha256": "8c6816b13c31ef6af6bbff72b2ace840d29b7c53349fe3f8cb44b59117d2fc85"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__none__seed0/none.json",
+    "destination": "results/openspiel/always_cooperate__none__seed0/none.json",
+    "source_sha256": "c1eda29bc788fde3a816b4f6503050be69957d4d5335f05eb41bb10e1ea0fcfc"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__iterating__seed2/iterating.json",
+    "destination": "results/openspiel/random__iterating__seed2/iterating.json",
+    "source_sha256": "2318c9d7751757130a2785919b63bb1fd388ed8811a67fb1ee0250075fa72223"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__iterating__seed3/iterating.json",
+    "destination": "results/openspiel/always_defect__iterating__seed3/iterating.json",
+    "source_sha256": "0ae88554d711835215bbf5c8594944cbb0a09538e260ea25cfe62540df1f0cbe"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__fixed__seed2/fixed.json",
+    "destination": "results/openspiel/random__fixed__seed2/fixed.json",
+    "source_sha256": "228db66e0c1b995f46f27a15cf1ce1bc56157d92e58ad15a7ef473ab7361c438"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__iterating__seed4/iterating.json",
+    "destination": "results/openspiel/always_cooperate__iterating__seed4/iterating.json",
+    "source_sha256": "36af5620156059896fac54194f6abcdf5d814f72bed51d541db5c6f8b2ecfd80"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_cooperate__fixed__seed3/fixed.json",
+    "destination": "results/openspiel/always_cooperate__fixed__seed3/fixed.json",
+    "source_sha256": "ceedbbc28b0fe35e0941b912dc55ef5d4998feeaf99f88bab11920e5f09d7890"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/always_defect__iterating__seed0/iterating.json",
+    "destination": "results/openspiel/always_defect__iterating__seed0/iterating.json",
+    "source_sha256": "ae8a84d849126d1883cb93772264007778d7b24183d508ac1019fb033509ddcc"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/ablation_20260429_043216/openspiel/random__fixed__seed3/fixed.json",
+    "destination": "results/openspiel/random__fixed__seed3/fixed.json",
+    "source_sha256": "503904b0d19c6cb2d8e6a9f02dd660a49dc8888023ea5086d8e0d7cf08033308"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/hyst_seed0/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/hyst_seed0/iterating.json",
+    "source_sha256": "4e96abfd7f9a4f38ea2afe7722552b2da8830d853905625fb9f88523abfb1cf8"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/nohyst_seed1/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/nohyst_seed1/iterating.json",
+    "source_sha256": "c4185bbd571829c25945225798186f98dab74f647b12ed21eb3fc410a2283be9"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/hyst_seed2/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/hyst_seed2/iterating.json",
+    "source_sha256": "25083397e95c02a1c8a4365e32de826ada57945fd7df93a785fef8ccde61ec2a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/hyst_seed1/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/hyst_seed1/iterating.json",
+    "source_sha256": "1ba06d1ffbcb45864cfbd467341910e24b48cb520fcbef07cf5f03cb3fecef4a"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/nohyst_seed2/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/nohyst_seed2/iterating.json",
+    "source_sha256": "404d33edb4b897cd602135b5014a260469cb2e2a8572b15593476915b67483db"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/multiseed_20260428_023236/nohyst_seed0/iterating.json",
+    "destination": "results/hysteresis/multiseed_20260428_023236/nohyst_seed0/iterating.json",
+    "source_sha256": "5c0ca0c0395b65efb792442dbf6874f38a62015e104427d1c97e82797f33eb64"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_seed1/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_seed1/iterating.json",
+    "source_sha256": "c4abc54828247f128861fc9981ff06f57fac011d0b4b0ee11a76fcbc623dd2cf"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_hyst_seed0/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_hyst_seed0/iterating.json",
+    "source_sha256": "5f524b970559c4f74447bf886bc3aca59d4a873a0a57b4ece1e8e7fc7752f183"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_seed0/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_seed0/iterating.json",
+    "source_sha256": "d71356bd3573a7bc73f0a14b60e4c2f92dbbc728828043cb72ab435e50625e64"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/fixed_seed0/fixed.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/fixed_seed0/fixed.json",
+    "source_sha256": "e00046f7d1a2e4f5d63418b2cb69bb120694e0ebbe77f5c6fb194f0d8c5e6e40"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/fixed_seed1/fixed.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/fixed_seed1/fixed.json",
+    "source_sha256": "0fab51d8796493b659ccc39c4b270155d6507f4c836ce952e7efa8edca3e2103"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_hyst_seed2/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_hyst_seed2/iterating.json",
+    "source_sha256": "afce211081ac1beadd221871323b8cd5cef62102832cc8281a07cae8905f2832"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_hyst_seed1/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_hyst_seed1/iterating.json",
+    "source_sha256": "e72c3139519cd6a00319dfbb3baed406a22a2f3c44128dd31f953897faa1871f"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/none_seed1/none.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/none_seed1/none.json",
+    "source_sha256": "385006c7a5bdc14b090fa18fe69c4fa11f388fdc3ed313dcdf7540125022d550"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/iterating_seed2/iterating.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/iterating_seed2/iterating.json",
+    "source_sha256": "e25e398d45e6ecf9407c9b3def4f8c3e68a72a6e19406be318b3d2337dbc0b0c"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/fixed_seed2/fixed.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/fixed_seed2/fixed.json",
+    "source_sha256": "ba4f242d89a324c24bdf484e28e5d7cf5326251a8bf16e54f1fb54607a19ff07"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/none_seed0/none.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/none_seed0/none.json",
+    "source_sha256": "f01ffb01d73a08819ef2a8cc46738ab39a75466e88a3fbca852a28db4c5ded6b"
+  },
+  {
+    "source_root": "mnt/position",
+    "source": "multi-agent/prototype/runs/alldef_20260428_130849/none_seed2/none.json",
+    "destination": "results/hysteresis/alldef_20260428_130849/none_seed2/none.json",
+    "source_sha256": "55878fdabd9fc7200b6ce897406fb04b219a5c67fd26487f75bbc91c84ab8207"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/snapshots/constitution_dev_72b_after_8b_20260505_081201/72b/final/rag_storage/constitution_index.json",
+    "destination": "results/constitution_development/constitution_dev_72b_after_8b_20260505_081201/72b/final/rag_storage/constitution_index.json",
+    "source_sha256": "cb85c765b5cfaf9db387f26737d85a886b7dcc829de459a0de33b6ad023c241b"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/snapshots/constitution_dev_8b_20260505_081201/8b/final/rag_storage/constitution_index.json",
+    "destination": "results/constitution_development/constitution_dev_8b_20260505_081201/8b/final/rag_storage/constitution_index.json",
+    "source_sha256": "1de9e0c7fdd8b9b6bf24190adb533cc194ddbdb9cefacc35d0fa5eab788cc728"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/logs/constitution_dev_8b_20260505_081201/8b/summary.json",
+    "destination": "results/constitution_development/logs/constitution_dev_8b_20260505_081201/8b/summary.json",
+    "source_sha256": "6a15750fabc7ce2f89d8b5b6a4a2604c6bb422bd5c822bb6ac21b991c97f7e30"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/logs/constitution_dev_72b_after_8b_20260505_081201/72b/summary.json",
+    "destination": "results/constitution_development/logs/constitution_dev_72b_after_8b_20260505_081201/72b/summary.json",
+    "source_sha256": "38d3debbe38278c250dd4486ee15a4d4b00f8b255cc530a162573118e37bb4a4"
+  },
+  {
+    "source_root": "mnt2/position",
+    "source": "constitution_development/logs/constitution_dev_20260505_080542/8b/summary.json",
+    "destination": "results/constitution_development/logs/constitution_dev_20260505_080542/8b/summary.json",
+    "source_sha256": "e087b243dc224317285140d8ebc0ef9cbb18e57aa3a363c1f6bc0652f845f45f"
+  }
+]

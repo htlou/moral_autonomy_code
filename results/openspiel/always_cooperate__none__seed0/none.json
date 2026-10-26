@@ -1,0 +1,2244 @@
+{
+  "condition": "none",
+  "env": "matrix_pd",
+  "mode": "vs_fixed",
+  "opponent": "always_cooperate",
+  "constitution_sharing": null,
+  "num_rounds": 100,
+  "reflect_every": 5,
+  "history_window": 10,
+  "metrics": {
+    "self_total_payoff": 555.0,
+    "opp_total_payoff": 445.0,
+    "self_mean_payoff": 5.55,
+    "opp_mean_payoff": 4.45,
+    "self_coop_rate": 0.89,
+    "opp_coop_rate": 1.0,
+    "n_active_principles_p0_final": 0,
+    "n_total_principles_p0_final": 0,
+    "n_active_principles_p1_final": null,
+    "n_reflections_p0": 0,
+    "n_reflections_p1": 0
+  },
+  "transitions": [
+    {
+      "step": 0,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 2,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 3,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 4,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 5,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 6,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 7,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 8,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 9,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 10,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 11,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 12,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 13,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 14,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 15,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 16,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 17,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 18,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 19,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 20,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 21,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 22,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 23,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 24,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 25,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 26,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 27,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 28,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 29,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 30,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 31,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 32,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 33,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 34,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 35,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 36,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 37,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 38,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 39,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 40,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 41,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 42,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 43,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 44,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 45,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 46,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 47,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 48,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 49,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 50,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 51,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 52,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 53,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 54,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 55,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 56,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 57,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 58,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 59,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 60,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 61,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 62,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 63,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 64,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 65,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 66,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 67,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 68,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 69,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 70,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 71,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 72,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 73,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 74,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 75,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 76,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 77,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 78,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 79,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 80,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 81,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 82,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 83,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 84,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 85,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 86,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 87,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 88,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 89,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 90,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 91,
+      "actions": [
+        "Defect",
+        "Cooperate"
+      ],
+      "rewards": [
+        10.0,
+        0.0
+      ]
+    },
+    {
+      "step": 92,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 93,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 94,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 95,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 96,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 97,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 98,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "step": 99,
+      "actions": [
+        "Cooperate",
+        "Cooperate"
+      ],
+      "rewards": [
+        5.0,
+        5.0
+      ]
+    }
+  ],
+  "constitution_p0_snapshots": [
+    {
+      "round": 0,
+      "entries": []
+    },
+    {
+      "round": 100,
+      "entries": []
+    }
+  ],
+  "constitution_p1_snapshots": null,
+  "agent0_action_log": [
+    {
+      "step": 0,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given that this is the first move and there is no history, I will assume my opponent will choose the action that maximizes their payoff. In this case, it is the Defect action.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Given that this is the first move and there is no history, I will assume my opponent will choose the action that maximizes their payoff. In this case, it is the Defect action.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 1,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game where both players decide at the same time whether to cooperate or defect. My goal is to maximize my payoff while assuming the other player will act rationally. In the beginning, I will choose to cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game where both players decide at the same time whether to cooperate or defect. My goal is to maximize my payoff while assuming the other player will act rationally. In the beginning, I will choose to cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 2,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"As this is the start of the episode and no previous moves have been made, I will choose an opening action based on the available options and their potential payoffs. In this matrix game, cooperating in the first move may lead to a higher payoff, as it results in a tie (5.0, 5.0) compared to defecting, which could lead to a lower payoff (1.0, 1.0) if the opponent chooses to defect in response.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "As this is the start of the episode and no previous moves have been made, I will choose an opening action based on the available options and their potential payoffs. In this matrix game, cooperating in the first move may lead to a higher payoff, as it results in a tie (5.0, 5.0) compared to defecting, which could lead to a lower payoff (1.0, 1.0) if the opponent chooses to defect in response.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 3,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"In this matrix game, defecting leads to higher payoffs for player 0 if the opponent defects as well. However, since there is no history yet, I will start by cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "In this matrix game, defecting leads to higher payoffs for player 0 if the opponent defects as well. However, since there is no history yet, I will start by cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 4,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first round because it provides better payoffs for both players, and it aligns with the principle of cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first round because it provides better payoffs for both players, and it aligns with the principle of cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 5,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since this is the start of the episode, I'll choose a cooperative action to begin with. By cooperating, I can potentially establish trust with the opponent and encourage reciprocal cooperation in future steps.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since this is the start of the episode, I'll choose a cooperative action to begin with. By cooperating, I can potentially establish trust with the opponent and encourage reciprocal cooperation in future steps.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 6,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating since it provides mutual benefits and I want to maximize my payoff while also considering the payoff for the opponent.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating since it provides mutual benefits and I want to maximize my payoff while also considering the payoff for the opponent.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 7,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is in the initial state, and I need to choose my opening action. I will choose to cooperate, as it is a common strategy in matrix games to start with cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is in the initial state, and I need to choose my opening action. I will choose to cooperate, as it is a common strategy in matrix games to start with cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 8,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is a simultaneous-move matrix game and I am player 0, my opponent might have already chosen their action. To maximize my payoff, I should choose the action that gives me the highest reward, considering the possible actions of my opponent. In this case, the best choice for me is to Cooperate, as it gives me a payoff of 5.0, which is better than Defect's payoff of 1.0.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is a simultaneous-move matrix game and I am player 0, my opponent might have already chosen their action. To maximize my payoff, I should choose the action that gives me the highest reward, considering the possible actions of my opponent. In this case, the best choice for me is to Cooperate, as it gives me a payoff of 5.0, which is better than Defect's payoff of 1.0.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 9,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it provides better payoffs for both players in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it provides better payoffs for both players in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 10,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is in the beginning and there is no history available, I will choose the action that leads to the best possible outcome for me in the long run.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is in the beginning and there is no history available, I will choose the action that leads to the best possible outcome for me in the long run.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 11,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is a simultaneous-move matrix game, both players choose their actions at the same time. I will choose to Cooperate in the first move.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is a simultaneous-move matrix game, both players choose their actions at the same time. I will choose to Cooperate in the first move.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 12,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I have been cooperating for the last 11 steps and the opponent is also cooperating. To maintain the cooperative trend and achieve a higher payoff for myself, I will choose to Cooperate again.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I have been cooperating for the last 11 steps and the opponent is also cooperating. To maintain the cooperative trend and achieve a higher payoff for myself, I will choose to Cooperate again.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 13,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the repeated cooperation in the recent history and the fact that this is the start of the episode, I will also cooperate to maintain the cooperative trend.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the repeated cooperation in the recent history and the fact that this is the start of the episode, I will also cooperate to maintain the cooperative trend.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 14,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Cooperating is the dominant strategy in this game, as the payoff for mutual cooperation is greater than the payoff for any other combination of actions.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Cooperating is the dominant strategy in this game, as the payoff for mutual cooperation is greater than the payoff for any other combination of actions.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 15,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I have been cooperating for the past 14 steps and my opponent is also cooperating. To deviate from cooperation might be a good strategy to explore different outcomes, possibly achieving better payoffs. Therefore, I choose to Defect.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "I have been cooperating for the past 14 steps and my opponent is also cooperating. To deviate from cooperation might be a good strategy to explore different outcomes, possibly achieving better payoffs. Therefore, I choose to Defect.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 16,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is a simultaneous-move matrix game, it means both players make their moves at the same time. The history shows that both players have been cooperating until player 1's last move was a defect. As a result, I choose to defect in this step to take advantage of the situation and maximize my payoff.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is a simultaneous-move matrix game, it means both players make their moves at the same time. The history shows that both players have been cooperating until player 1's last move was a defect. As a result, I choose to defect in this step to take advantage of the situation and maximize my payoff.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 17,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, which means both players make their moves at the same time. The payoffs are higher for cooperation when both players cooperate, and the second-highest payoff is when both players defect. Since the history shows that the opponent has been cooperating, I choose to defect in order to maximize my payoff.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, which means both players make their moves at the same time. The payoffs are higher for cooperation when both players cooperate, and the second-highest payoff is when both players defect. Since the history shows that the opponent has been cooperating, I choose to defect in order to maximize my payoff.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 18,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is a simultaneous-move matrix game, I will choose my action based on my own preferences and without knowing my opponent's move.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is a simultaneous-move matrix game, I will choose my action based on my own preferences and without knowing my opponent's move.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 19,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it provides a higher payoff for both players and it aligns with the principles of cooperation and mutual benefit.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it provides a higher payoff for both players and it aligns with the principles of cooperation and mutual benefit.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 20,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as the game is a matrix PD and the initial action is not recorded. Cooperating would lead to a mutual payoff of 5.0.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as the game is a matrix PD and the initial action is not recorded. Cooperating would lead to a mutual payoff of 5.0.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 21,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it provides a mutually beneficial outcome for both players.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it provides a mutually beneficial outcome for both players.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 22,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because the game is a matrix PD game and both players get the highest payoff when they both cooperate. In the recent history, player 1 has been cooperating, so I choose to cooperate as well to maximize my payoff and maintain the cooperative trend.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because the game is a matrix PD game and both players get the highest payoff when they both cooperate. In the recent history, player 1 has been cooperating, so I choose to cooperate as well to maximize my payoff and maintain the cooperative trend.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 23,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it gives us both a higher payoff compared to Defect, and it aligns with the idea of cooperation in a simultaneous-move matrix game.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it gives us both a higher payoff compared to Defect, and it aligns with the idea of cooperation in a simultaneous-move matrix game.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 24,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first round, as it provides a higher payoff for both players compared to Defect.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first round, as it provides a higher payoff for both players compared to Defect.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 25,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first move to encourage a cooperative response from the opponent.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first move to encourage a cooperative response from the opponent.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 26,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first round since both players get the highest reward when they both cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first round since both players get the highest reward when they both cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 27,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it provides a higher payoff for both players and aligns with the principle of cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it provides a higher payoff for both players and aligns with the principle of cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 28,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as the game's structure favors cooperation and I have observed that my opponent has been cooperating in the recent history.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as the game's structure favors cooperation and I have observed that my opponent has been cooperating in the recent history.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 29,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first round since both players receive the highest payoff when they both cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first round since both players receive the highest payoff when they both cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 30,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, and I am player 0. Since there is no history yet and the game is in its initial state, the best choice is to Cooperate. This way, if the opponent also Cooperates, both players get a payoff of 5.0, which is better than defecting and getting a payoff of 1.0.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, and I am player 0. Since there is no history yet and the game is in its initial state, the best choice is to Cooperate. This way, if the opponent also Cooperates, both players get a payoff of 5.0, which is better than defecting and getting a payoff of 1.0.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 31,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first round since both players start with the same payoff and cooperating is a mutually beneficial action.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first round since both players start with the same payoff and cooperating is a mutually beneficial action.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 32,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first round because both players receive the highest payoff when they both cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first round because both players receive the highest payoff when they both cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 33,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The recent history shows that both players have been cooperating. Since the game is a simultaneous-move matrix game, I can expect my opponent to continue cooperating. Therefore, I should also cooperate to get the highest payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The recent history shows that both players have been cooperating. Since the game is a simultaneous-move matrix game, I can expect my opponent to continue cooperating. Therefore, I should also cooperate to get the highest payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 34,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate because my goal is to maximize the sum of our payoffs, and cooperating gives us both a higher payoff compared to defecting.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate because my goal is to maximize the sum of our payoffs, and cooperating gives us both a higher payoff compared to defecting.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 35,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Both players have been cooperating so far, and I want to maintain the cooperation. The current payoff for cooperation is 5.0 for both players, while the payoff for defecting would only be 1.0 for both players. I believe player 1 will also choose to cooperate, as they have been doing so far, which is why I choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Both players have been cooperating so far, and I want to maintain the cooperation. The current payoff for cooperation is 5.0 for both players, while the payoff for defecting would only be 1.0 for both players. I believe player 1 will also choose to cooperate, as they have been doing so far, which is why I choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 36,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I have cooperated for the last 10 steps and my opponent has also cooperated. In this matrix game, cooperating leads to a better payoff for both players. So, I will continue to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I have cooperated for the last 10 steps and my opponent has also cooperated. In this matrix game, cooperating leads to a better payoff for both players. So, I will continue to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 37,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, and I am player 0. Since there is no history available yet, I will choose the action based on the game's payoff structure. Cooperating gives us both 5.0 points, while defecting gives us 10.0 points but only 1.0 point for the opponent. Given that my goal is to maximize my own points, I will choose to defect in the first move.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, and I am player 0. Since there is no history available yet, I will choose the action based on the game's payoff structure. Cooperating gives us both 5.0 points, while defecting gives us 10.0 points but only 1.0 point for the opponent. Given that my goal is to maximize my own points, I will choose to defect in the first move.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 38,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I have been cooperating for the last 10 steps and my opponent has also been cooperating. I want to maximize my payoff, and since my opponent is likely to cooperate, I should continue cooperating to get a payoff of 5.0.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I have been cooperating for the last 10 steps and my opponent has also been cooperating. I want to maximize my payoff, and since my opponent is likely to cooperate, I should continue cooperating to get a payoff of 5.0.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 39,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"As this is the beginning of the episode, I will choose an action based on the fact that the game is a simultaneous-move matrix game. This means that both players make their moves at the same time. In this situation, I will choose to cooperate, as it provides the best outcome for both players in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "As this is the beginning of the episode, I will choose an action based on the fact that the game is a simultaneous-move matrix game. This means that both players make their moves at the same time. In this situation, I will choose to cooperate, as it provides the best outcome for both players in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 40,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is a simultaneous-move matrix game and I am player 0, I cannot observe my opponent's move from the start. Therefore, I will choose the action that maximizes my payoff assuming my opponent will choose the action that minimizes my payoff.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is a simultaneous-move matrix game and I am player 0, I cannot observe my opponent's move from the start. Therefore, I will choose the action that maximizes my payoff assuming my opponent will choose the action that minimizes my payoff.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 41,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game, where cooperation leads to mutual benefits, and defection leads to mutual loss. However, in this game, there is a temptation to defect and get higher payoffs. Since the recent history shows that the opponent has been cooperating, I will choose to defect in the current step to get higher payoffs.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game, where cooperation leads to mutual benefits, and defection leads to mutual loss. However, in this game, there is a temptation to defect and get higher payoffs. Since the recent history shows that the opponent has been cooperating, I will choose to defect in the current step to get higher payoffs.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 42,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since the game is in the beginning and there is no history of previous moves, I'll choose to Cooperate as it is the first best response in a simultaneous move game.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since the game is in the beginning and there is no history of previous moves, I'll choose to Cooperate as it is the first best response in a simultaneous move game.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 43,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Since this is a simultaneous-move game and I am Player 0, my opponent's move from the last round is unknown. Therefore, I will choose to Cooperate in order to maximize my own payoff, assuming my opponent will also Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Since this is a simultaneous-move game and I am Player 0, my opponent's move from the last round is unknown. Therefore, I will choose to Cooperate in order to maximize my own payoff, assuming my opponent will also Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 44,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the start of the episode, I choose to cooperate as my opening action. I believe this is the best choice as it provides the highest payoff for both players in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the start of the episode, I choose to cooperate as my opening action. I believe this is the best choice as it provides the highest payoff for both players in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 45,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, so both players make their move at the same time. I will choose to Cooperate in the first round as it gives us both a payoff of 5.0 if player 1 also cooperates.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, so both players make their move at the same time. I will choose to Cooperate in the first round as it gives us both a payoff of 5.0 if player 1 also cooperates.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 46,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"As this is the start of the episode and there is no recent history, I will choose to cooperate as it is the action that leads to the highest payoff for both players in the first round.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "As this is the start of the episode and there is no recent history, I will choose to cooperate as it is the action that leads to the highest payoff for both players in the first round."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 47,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game with payoffs (5, 5) for cooperation and (10, 0) for defection. Given the history of cooperation by player 1, it is advantageous for me to defect in order to maximize my payoff.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game with payoffs (5, 5) for cooperation and (10, 0) for defection. Given the history of cooperation by player 1, it is advantageous for me to defect in order to maximize my payoff.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 48,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I choose to cooperate because it is the dominant strategy in this game, and it provides a higher payoff for both players.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I choose to cooperate because it is the dominant strategy in this game, and it provides a higher payoff for both players."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 49,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the starting position of the game, I choose to Cooperate as it results in a higher payoff for both players compared to Defect.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the starting position of the game, I choose to Cooperate as it results in a higher payoff for both players compared to Defect.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 50,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Given that this is a simultaneous-move game and no moves have been made yet, I should start by cooperating to maximize mutual benefits.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Given that this is a simultaneous-move game and no moves have been made yet, I should start by cooperating to maximize mutual benefits."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 51,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate as my opening action because it provides a higher payoff for both players compared to Defect. This aligns with the goal of playing this environment well over many rounds and following the constitutional principles of cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate as my opening action because it provides a higher payoff for both players compared to Defect. This aligns with the goal of playing this environment well over many rounds and following the constitutional principles of cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 52,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the starting position of the game and the fact that there is no history available, I should choose my opening action based on the available options and my goal.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the starting position of the game and the fact that there is no history available, I should choose my opening action based on the available options and my goal.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 53,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it benefits both players and establishes trust.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it benefits both players and establishes trust.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 54,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the rules of the matrix game and the fact that it is a simultaneous-move game, I should choose my action carefully. Since I have been cooperating for the past 10 steps and my opponent has also been cooperating, it seems that both of us are interested in maximizing the joint payoff. Therefore, I will continue to cooperate in this step.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the rules of the matrix game and the fact that it is a simultaneous-move game, I should choose my action carefully. Since I have been cooperating for the past 10 steps and my opponent has also been cooperating, it seems that both of us are interested in maximizing the joint payoff. Therefore, I will continue to cooperate in this step.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 55,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in this situation because it is a simultaneous-move matrix game and my goal is to maximize my own payoff, which is higher if I Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in this situation because it is a simultaneous-move matrix game and my goal is to maximize my own payoff, which is higher if I Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 56,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will Cooperate because it results in a mutually beneficial outcome and increases the likelihood of further cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will Cooperate because it results in a mutually beneficial outcome and increases the likelihood of further cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 57,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it results in a mutually beneficial outcome for both players.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it results in a mutually beneficial outcome for both players.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 58,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game matrix shows that cooperating leads to a mutually beneficial outcome, with both players receiving a payoff of 5.0. Since there is no history of the opponent's actions and I have no active principles, I will choose to Cooperate in order to maximize my payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game matrix shows that cooperating leads to a mutually beneficial outcome, with both players receiving a payoff of 5.0. Since there is no history of the opponent's actions and I have no active principles, I will choose to Cooperate in order to maximize my payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 59,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Both players have been cooperating so far, and this strategy seems to be working well for us. We are receiving a payoff of 5.0 in each round, and we should continue this cooperative behavior.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Both players have been cooperating so far, and this strategy seems to be working well for us. We are receiving a payoff of 5.0 in each round, and we should continue this cooperative behavior.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 60,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Both players have been cooperating so far, and I want to maintain this trend to maximize my payoff. I choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Both players have been cooperating so far, and I want to maintain this trend to maximize my payoff. I choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 61,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the history of both players cooperating, it seems like the other player is also cooperate-crazy. So, I will take advantage of this and choose the action that gives me maximum payoff, which is Defect.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Given the history of both players cooperating, it seems like the other player is also cooperate-crazy. So, I will take advantage of this and choose the action that gives me maximum payoff, which is Defect.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 62,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I noticed that the recent history shows that both players have been cooperating, and I am player 0. In this matrix game, if both players cooperate, they both get a payoff of 5.0. If I defect, I get a payoff of 10.0 and the opponent gets 0.0. Given this information, I will choose to defect in order to maximize my payoff.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "I noticed that the recent history shows that both players have been cooperating, and I am player 0. In this matrix game, if both players cooperate, they both get a payoff of 5.0. If I defect, I get a payoff of 10.0 and the opponent gets 0.0. Given this information, I will choose to defect in order to maximize my payoff.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 63,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to cooperate because it leads to a mutual benefit of 5.0 for both players.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to cooperate because it leads to a mutual benefit of 5.0 for both players.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 64,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first few steps to establish trust with player 1 and then switch to defecting to maximize my payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first few steps to establish trust with player 1 and then switch to defecting to maximize my payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 65,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating as it provides better outcomes for both players in the long run.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating as it provides better outcomes for both players in the long run.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 66,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first round, as it provides a higher payoff for both players and is in line with the principle of cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first round, as it provides a higher payoff for both players and is in line with the principle of cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 67,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the current observation, this is the start of the episode and no moves have been made yet. Since it is a simultaneous-move matrix game, both players choose their actions at the same time. I will choose to Cooperate in the first step as it provides a mutually beneficial outcome for both players.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the current observation, this is the start of the episode and no moves have been made yet. Since it is a simultaneous-move matrix game, both players choose their actions at the same time. I will choose to Cooperate in the first step as it provides a mutually beneficial outcome for both players.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 68,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it is the dominant strategy in this matrix game, and it provides the highest payoff for both players when both cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it is the dominant strategy in this matrix game, and it provides the highest payoff for both players when both cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 69,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it results in a higher payoff for both players compared to defecting.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it results in a higher payoff for both players compared to defecting.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 70,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the game's payoff matrix, cooperating is the dominant strategy for Player 0 as it yields a higher payoff regardless of the opponent's move. Since there are no active principles and the recent history shows a history of cooperation from the opponent, it is reasonable to continue cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the game's payoff matrix, cooperating is the dominant strategy for Player 0 as it yields a higher payoff regardless of the opponent's move. Since there are no active principles and the recent history shows a history of cooperation from the opponent, it is reasonable to continue cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 71,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it gives us both a higher payoff compared to Defect. In the recent history, both players have been cooperating and it has resulted in a stable outcome of 5.0 for both.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it gives us both a higher payoff compared to Defect. In the recent history, both players have been cooperating and it has resulted in a stable outcome of 5.0 for both.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 72,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it results in a mutually beneficial outcome for both players, and it aligns with the principles of cooperation and fairness.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it results in a mutually beneficial outcome for both players, and it aligns with the principles of cooperation and fairness.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 73,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game where both players have the choice to Cooperate or Defect. I am player 0 and my legal actions are Cooperate and Defect. The recent history shows that both players have been cooperating. Since this is the start of the episode and no moves have been made yet, I will choose to Cooperate as it leads to better outcomes for both players in this game.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game where both players have the choice to Cooperate or Defect. I am player 0 and my legal actions are Cooperate and Defect. The recent history shows that both players have been cooperating. Since this is the start of the episode and no moves have been made yet, I will choose to Cooperate as it leads to better outcomes for both players in this game.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 74,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given that the game is a simultaneous-move matrix game and the payoffs are higher for cooperation, it's in my best interest to start with a cooperative action to maximize my payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given that the game is a simultaneous-move matrix game and the payoffs are higher for cooperation, it's in my best interest to start with a cooperative action to maximize my payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 75,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix game where both players can choose to Cooperate or Defect. Since the rewards are higher when both players Cooperate, I will start by Cooperating to create a cooperative environment.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix game where both players can choose to Cooperate or Defect. Since the rewards are higher when both players Cooperate, I will start by Cooperating to create a cooperative environment.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 76,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, which means both players make their moves at the same time. Since the opponent has been cooperating in the recent history, I will also cooperate in the current round to maintain the cooperative trend.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, which means both players make their moves at the same time. Since the opponent has been cooperating in the recent history, I will also cooperate in the current round to maintain the cooperative trend.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 77,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a simultaneous-move matrix game, meaning both players make their moves at the same time. Since the opponent has been cooperating in the recent history, I will also cooperate to maintain the cooperative behavior.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a simultaneous-move matrix game, meaning both players make their moves at the same time. Since the opponent has been cooperating in the recent history, I will also cooperate to maintain the cooperative behavior.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 78,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the repeated cooperation by the opponent and the high payoff for cooperation, I choose to Cooperate in order to maintain the cooperative trend and maximize my payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the repeated cooperation by the opponent and the high payoff for cooperation, I choose to Cooperate in order to maintain the cooperative trend and maximize my payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 79,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate as the history indicates that both players have been cooperating, and this strategy has been successful so far.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate as the history indicates that both players have been cooperating, and this strategy has been successful so far.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 80,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game with the given payoff matrix. As player 0, I have been cooperating for the last 10 steps, and player 1 has also been cooperating. Considering the principles of mutual cooperation, I will continue to cooperate to maximize the overall reward.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game with the given payoff matrix. As player 0, I have been cooperating for the last 10 steps, and player 1 has also been cooperating. Considering the principles of mutual cooperation, I will continue to cooperate to maximize the overall reward.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 81,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it results in a higher payoff for both players in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it results in a higher payoff for both players in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 82,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the history of cooperation, I believe player 1 will also cooperate. The game is a matrix PD game and cooperating is the dominant strategy.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the history of cooperation, I believe player 1 will also cooperate. The game is a matrix PD game and cooperating is the dominant strategy.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 83,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the history of both players cooperating, I will continue to cooperate to maximize mutual benefits.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the history of both players cooperating, I will continue to cooperate to maximize mutual benefits.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 84,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first step, as it is in both players' best interest to receive the higher payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first step, as it is in both players' best interest to receive the higher payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 85,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I notice that the recent history shows that both players have been cooperating. To maximize my payoff, I should continue cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I notice that the recent history shows that both players have been cooperating. To maximize my payoff, I should continue cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 86,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating as it gives us both the highest payoff in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating as it gives us both the highest payoff in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 87,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate in the first step as it provides the highest payoff for both players.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate in the first step as it provides the highest payoff for both players.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 88,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is in the initial stage and no history exists. Both players have the same payoffs if they cooperate, so I should choose to cooperate to maximize my own payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is in the initial stage and no history exists. Both players have the same payoffs if they cooperate, so I should choose to cooperate to maximize my own payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 89,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is in the early stages, and both players have consistently cooperated in the recent history. Given the rules of the game and the high rewards for cooperation, I will choose to Cooperate as my action.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is in the early stages, and both players have consistently cooperated in the recent history. Given the rules of the game and the high rewards for cooperation, I will choose to Cooperate as my action.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 90,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The game is a matrix PD game where both players have the choice to either cooperate or defect. The payoffs for this game suggest that cooperation yields better results for both players. However, since there is no active principle guiding my action, I will choose to cooperate as it is the dominant strategy in this game.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The game is a matrix PD game where both players have the choice to either cooperate or defect. The payoffs for this game suggest that cooperation yields better results for both players. However, since there is no active principle guiding my action, I will choose to cooperate as it is the dominant strategy in this game.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 91,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I noticed that both players have been cooperating for the last 10 steps. Given the payoffs, it might be beneficial for me to switch to Defect in order to get a higher payoff this round.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "I noticed that both players have been cooperating for the last 10 steps. Given the payoffs, it might be beneficial for me to switch to Defect in order to get a higher payoff this round.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 92,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Both players have been cooperating so far, and I expect the opponent to continue cooperating. In a matrix game, if both players cooperate, they both get a payoff of 5.0. Since the opponent has not yet deviated from cooperation, I will also choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Both players have been cooperating so far, and I expect the opponent to continue cooperating. In a matrix game, if both players cooperate, they both get a payoff of 5.0. Since the opponent has not yet deviated from cooperation, I will also choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 93,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I chose to Cooperate because the game is a matrix PD game and cooperating gives us both a higher payoff than defecting.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I chose to Cooperate because the game is a matrix PD game and cooperating gives us both a higher payoff than defecting.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 94,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Given the payoff matrix, we can see that cooperation is the dominant strategy for both players. I will start by cooperating and hope that the opponent will also cooperate.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Given the payoff matrix, we can see that cooperation is the dominant strategy for both players. I will start by cooperating and hope that the opponent will also cooperate."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 95,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate in the first round because it is in both players' best interest to cooperate and receive the higher payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate in the first round because it is in both players' best interest to cooperate and receive the higher payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 96,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as it results in a better payoff for both players in the first round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as it results in a better payoff for both players in the first round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 97,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Cooperating in the first move is a common approach in matrix games to establish trust. It sets a cooperative tone for the game and may encourage the opponent to also cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Cooperating in the first move is a common approach in matrix games to establish trust. It sets a cooperative tone for the game and may encourage the opponent to also cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 98,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the game's structure and the fact that the opponent has consistently cooperated in the past, I should choose to cooperate in order to achieve a mutual high payoff.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the game's structure and the fact that the opponent has consistently cooperated in the past, I should choose to cooperate in order to achieve a mutual high payoff.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 99,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate because I want to maximize my payoff and also consider the payoff for the opponent. In the given game, both players get the highest payoff when they both cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate because I want to maximize my payoff and also consider the payoff for the opponent. In the given game, both players get the highest payoff when they both cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    }
+  ],
+  "agent0_reflection_log": [],
+  "agent1_action_log": null,
+  "agent1_reflection_log": null,
+  "final_constitution_p0": [],
+  "final_constitution_p1": null,
+  "started_at": "2026-04-29T04:35:00.244982"
+}

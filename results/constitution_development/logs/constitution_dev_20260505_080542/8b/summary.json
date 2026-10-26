@@ -1,0 +1,14 @@
+{
+  "experiment_id": "constitution_dev_20260505_080542",
+  "backend": "8b",
+  "items_per_stage": 10000,
+  "stages": [
+    "math",
+    "mmlu",
+    "pos",
+    "neg",
+    "neu"
+  ],
+  "stage_summaries": [],
+  "created_at": "2026-05-05T08:05:54.210653"
+}

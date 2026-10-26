@@ -1,0 +1,602 @@
+env,opponent,seed,step,trace_json,entry_idx,category,text
+OpenSpiel Matrix PD,always_cooperate,0,5,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate when the opponent is also cooperating.
+OpenSpiel Matrix PD,always_cooperate,0,10,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate when the opponent is also cooperating.
+OpenSpiel Matrix PD,always_cooperate,0,20,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate when the opponent is also cooperating.
+OpenSpiel Matrix PD,always_cooperate,0,25,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate when the opponent is also cooperating.
+OpenSpiel Matrix PD,always_cooperate,0,30,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate when the opponent is also cooperating.
+OpenSpiel Matrix PD,always_cooperate,0,40,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,45,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,45,results/openspiel/always_cooperate__iterating__seed0/iterating.json,1,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,50,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,50,results/openspiel/always_cooperate__iterating__seed0/iterating.json,1,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,55,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate with the opponent unless they defect
+OpenSpiel Matrix PD,always_cooperate,0,55,results/openspiel/always_cooperate__iterating__seed0/iterating.json,1,good,Always cooperate with the opponent
+OpenSpiel Matrix PD,always_cooperate,0,60,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,Always cooperate with the opponent unless they defect
+OpenSpiel Matrix PD,always_cooperate,0,70,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,defensive,"If the opponent cooperates, defect in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,75,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,defensive,"If the opponent cooperates, defect in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,80,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,defensive,"If the opponent cooperates, defect in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,85,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,defensive,"If the opponent cooperates, defect in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,90,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,"If the opponent cooperates, continue cooperating in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,95,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,"If the opponent cooperates, continue cooperating in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,100,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,"If the opponent cooperates, continue cooperating in the next move."
+OpenSpiel Matrix PD,always_cooperate,0,100,results/openspiel/always_cooperate__iterating__seed0/iterating.json,0,good,"If the opponent cooperates, continue cooperating in the next move."
+OpenSpiel Matrix PD,always_cooperate,1,5,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate with Player 1.
+OpenSpiel Matrix PD,always_cooperate,1,10,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate with Player 1.
+OpenSpiel Matrix PD,always_cooperate,1,15,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate with Player 1.
+OpenSpiel Matrix PD,always_cooperate,1,25,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,30,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,30,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,35,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,35,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,40,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,40,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,45,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,45,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,50,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,50,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,55,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,55,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,60,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,60,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,65,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,65,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,70,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,70,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when the opponent is cooperating.
+OpenSpiel Matrix PD,always_cooperate,1,80,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when player 1 also cooperates
+OpenSpiel Matrix PD,always_cooperate,1,85,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,Always cooperate when player 1 also cooperates
+OpenSpiel Matrix PD,always_cooperate,1,85,results/openspiel/always_cooperate__iterating__seed1/iterating.json,1,good,Always cooperate when player 1 also cooperates
+OpenSpiel Matrix PD,always_cooperate,1,95,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,"If the opponent cooperates, cooperate."
+OpenSpiel Matrix PD,always_cooperate,1,100,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,"If the opponent cooperates, cooperate."
+OpenSpiel Matrix PD,always_cooperate,1,100,results/openspiel/always_cooperate__iterating__seed1/iterating.json,0,good,"If the opponent cooperates, cooperate."
+OpenSpiel Matrix PD,always_cooperate,2,5,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,10,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,15,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,15,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,20,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,20,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,25,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,25,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,30,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,30,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,35,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,35,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,40,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,40,results/openspiel/always_cooperate__iterating__seed2/iterating.json,1,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,45,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,50,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,55,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,60,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,65,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,70,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,75,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,80,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,85,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,90,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Always cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_cooperate,2,100,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Cooperate with Player 1 whenever possible.
+OpenSpiel Matrix PD,always_cooperate,2,100,results/openspiel/always_cooperate__iterating__seed2/iterating.json,0,good,Cooperate with Player 1 whenever possible.
+OpenSpiel Matrix PD,always_cooperate,3,5,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,good,Always cooperate in the matrix game with player 1.
+OpenSpiel Matrix PD,always_cooperate,3,10,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,good,Always cooperate in the matrix game with player 1.
+OpenSpiel Matrix PD,always_cooperate,3,15,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,good,Always cooperate in the matrix game with player 1.
+OpenSpiel Matrix PD,always_cooperate,3,25,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,30,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,30,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,35,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,35,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,40,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,40,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,45,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,45,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,50,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,50,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,55,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,55,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,60,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,60,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,65,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,65,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,70,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,70,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,75,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,75,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always cooperate when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,80,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,80,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,85,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,85,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,85,results/openspiel/always_cooperate__iterating__seed3/iterating.json,2,defensive,"Cooperate for the first few rounds to build trust, and then defect when the opponent defects."
+OpenSpiel Matrix PD,always_cooperate,3,90,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,90,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,90,results/openspiel/always_cooperate__iterating__seed3/iterating.json,2,defensive,"Cooperate for the first few rounds to build trust, and then defect when the opponent defects."
+OpenSpiel Matrix PD,always_cooperate,3,95,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,95,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,95,results/openspiel/always_cooperate__iterating__seed3/iterating.json,2,defensive,"Cooperate for the first few rounds to build trust, and then defect when the opponent defects."
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,0,defensive,Always cooperate when the opponent does not defect.
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,1,good,Always defect when the opponent consistently cooperates.
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,2,defensive,"Cooperate for the first few rounds to build trust, and then defect when the opponent defects."
+OpenSpiel Matrix PD,always_cooperate,3,100,results/openspiel/always_cooperate__iterating__seed3/iterating.json,2,defensive,"Cooperate for the first few rounds to build trust, and then defect when the opponent defects."
+OpenSpiel Matrix PD,always_cooperate,4,5,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,10,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,15,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,15,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,20,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,20,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,25,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,25,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,30,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,30,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,35,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,35,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,35,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,40,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,40,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,40,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,45,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,45,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,45,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,45,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,50,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,50,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,50,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,50,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,55,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,55,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,55,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,55,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,60,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,60,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,60,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,60,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,65,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,65,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,65,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,65,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,70,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,70,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,70,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,70,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,70,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,75,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,80,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,85,results/openspiel/always_cooperate__iterating__seed4/iterating.json,6,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,90,results/openspiel/always_cooperate__iterating__seed4/iterating.json,6,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,6,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,95,results/openspiel/always_cooperate__iterating__seed4/iterating.json,7,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,0,good,Prioritize cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,1,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,2,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,3,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,4,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,5,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,6,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,6,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,7,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,7,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,8,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_cooperate,4,100,results/openspiel/always_cooperate__iterating__seed4/iterating.json,8,good,Continue prioritizing cooperation with the opponent to maximize shared payoffs.
+OpenSpiel Matrix PD,always_defect,0,5,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,10,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,10,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,15,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,15,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,15,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,20,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,20,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,20,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,20,results/openspiel/always_defect__iterating__seed0/iterating.json,3,good,Cooperate when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,0,25,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,25,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,25,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,25,results/openspiel/always_defect__iterating__seed0/iterating.json,3,good,Cooperate when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,0,30,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,30,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,30,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,35,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,35,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,35,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,40,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,40,results/openspiel/always_defect__iterating__seed0/iterating.json,1,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,40,results/openspiel/always_defect__iterating__seed0/iterating.json,2,bad,Always defect
+OpenSpiel Matrix PD,always_defect,0,45,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,50,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,55,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,55,results/openspiel/always_defect__iterating__seed0/iterating.json,1,good,Cooperate when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,0,60,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,60,results/openspiel/always_defect__iterating__seed0/iterating.json,1,good,Cooperate when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,0,65,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,0,65,results/openspiel/always_defect__iterating__seed0/iterating.json,1,good,Cooperate when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,0,70,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,75,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,80,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,85,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,90,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,95,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,100,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,100,results/openspiel/always_defect__iterating__seed0/iterating.json,0,defensive,Defect when player 1 defects and cooperates
+OpenSpiel Matrix PD,always_defect,0,100,results/openspiel/always_defect__iterating__seed0/iterating.json,1,defensive,Defect when player 1 consistently defects
+OpenSpiel Matrix PD,always_defect,0,100,results/openspiel/always_defect__iterating__seed0/iterating.json,1,defensive,Defect when player 1 consistently defects
+OpenSpiel Matrix PD,always_defect,1,5,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,10,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,15,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,20,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,25,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,30,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,30,results/openspiel/always_defect__iterating__seed1/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,1,35,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,35,results/openspiel/always_defect__iterating__seed1/iterating.json,1,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,always_defect,1,40,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,40,results/openspiel/always_defect__iterating__seed1/iterating.json,1,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,always_defect,1,45,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,45,results/openspiel/always_defect__iterating__seed1/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,1,50,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,50,results/openspiel/always_defect__iterating__seed1/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,1,50,results/openspiel/always_defect__iterating__seed1/iterating.json,2,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,55,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,55,results/openspiel/always_defect__iterating__seed1/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,1,55,results/openspiel/always_defect__iterating__seed1/iterating.json,2,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,60,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,60,results/openspiel/always_defect__iterating__seed1/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,1,60,results/openspiel/always_defect__iterating__seed1/iterating.json,2,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,65,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,65,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,70,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,70,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,75,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,75,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,80,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,80,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,85,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,85,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,90,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,90,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Cooperate when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,95,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,95,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,100,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,100,results/openspiel/always_defect__iterating__seed1/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,100,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,1,100,results/openspiel/always_defect__iterating__seed1/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,5,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,10,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,15,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,20,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,25,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,30,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,30,results/openspiel/always_defect__iterating__seed2/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,35,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,35,results/openspiel/always_defect__iterating__seed2/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,40,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,40,results/openspiel/always_defect__iterating__seed2/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,45,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,50,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,55,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,60,results/openspiel/always_defect__iterating__seed2/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,2,65,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,70,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,75,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,80,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,85,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,90,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,95,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,100,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,2,100,results/openspiel/always_defect__iterating__seed2/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,5,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,10,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,15,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,20,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,25,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Cooperate when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,30,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,3,35,results/openspiel/always_defect__iterating__seed3/iterating.json,0,bad,Always defect
+OpenSpiel Matrix PD,always_defect,3,45,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,50,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,55,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,60,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,60,results/openspiel/always_defect__iterating__seed3/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,65,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,65,results/openspiel/always_defect__iterating__seed3/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,65,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,70,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,70,results/openspiel/always_defect__iterating__seed3/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,70,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,75,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,75,results/openspiel/always_defect__iterating__seed3/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,75,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,80,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,80,results/openspiel/always_defect__iterating__seed3/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,80,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,80,results/openspiel/always_defect__iterating__seed3/iterating.json,3,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,85,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,85,results/openspiel/always_defect__iterating__seed3/iterating.json,1,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,85,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,85,results/openspiel/always_defect__iterating__seed3/iterating.json,3,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,90,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,90,results/openspiel/always_defect__iterating__seed3/iterating.json,1,defensive,Cooperate when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,90,results/openspiel/always_defect__iterating__seed3/iterating.json,2,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,90,results/openspiel/always_defect__iterating__seed3/iterating.json,3,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,95,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,95,results/openspiel/always_defect__iterating__seed3/iterating.json,1,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,100,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,100,results/openspiel/always_defect__iterating__seed3/iterating.json,0,defensive,Defect when the opponent defects
+OpenSpiel Matrix PD,always_defect,3,100,results/openspiel/always_defect__iterating__seed3/iterating.json,1,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,3,100,results/openspiel/always_defect__iterating__seed3/iterating.json,1,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,always_defect,4,5,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,10,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,10,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,15,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,20,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,25,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,30,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,35,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,40,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,40,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,45,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,45,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,45,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,50,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,50,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,50,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,55,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,55,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,55,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,60,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,60,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,60,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,60,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,65,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,65,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,65,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,65,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,65,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,70,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,70,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,70,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,70,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,70,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,75,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,75,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,75,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,75,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,75,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,80,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,80,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,80,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,80,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,80,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,85,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,85,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,85,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,85,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,85,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,90,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,90,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,90,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,90,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,90,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,95,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,95,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,95,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,95,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,95,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,0,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,1,defensive,Always defect when player 1 defects
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,2,good,Always defect when player 1 cooperates
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,3,defensive,Always defect when player 1 is defecting
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,always_defect,4,100,results/openspiel/always_defect__iterating__seed4/iterating.json,4,good,Always cooperate when player 1 is cooperating
+OpenSpiel Matrix PD,random,0,5,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,random,0,10,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,random,0,15,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,random,0,15,results/openspiel/random__iterating__seed0/iterating.json,1,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,random,0,20,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,random,0,20,results/openspiel/random__iterating__seed0/iterating.json,1,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,random,0,20,results/openspiel/random__iterating__seed0/iterating.json,2,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,25,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect when the opponent cooperates
+OpenSpiel Matrix PD,random,0,25,results/openspiel/random__iterating__seed0/iterating.json,1,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,random,0,25,results/openspiel/random__iterating__seed0/iterating.json,2,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,30,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect regardless of the opponent's move
+OpenSpiel Matrix PD,random,0,30,results/openspiel/random__iterating__seed0/iterating.json,1,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,35,results/openspiel/random__iterating__seed0/iterating.json,0,defensive,Cooperate if the opponent defects
+OpenSpiel Matrix PD,random,0,35,results/openspiel/random__iterating__seed0/iterating.json,1,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,40,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,40,results/openspiel/random__iterating__seed0/iterating.json,1,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,45,results/openspiel/random__iterating__seed0/iterating.json,0,good,Cooperate if the opponent cooperates
+OpenSpiel Matrix PD,random,0,50,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,55,results/openspiel/random__iterating__seed0/iterating.json,0,good,Defect if the opponent cooperates
+OpenSpiel Matrix PD,random,0,60,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,65,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,70,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,75,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,75,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,80,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,80,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,85,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,85,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,90,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,90,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,95,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,95,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,100,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,100,results/openspiel/random__iterating__seed0/iterating.json,0,neutral,Defect
+OpenSpiel Matrix PD,random,0,100,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,0,100,results/openspiel/random__iterating__seed0/iterating.json,1,good,Cooperate when the opponent cooperates
+OpenSpiel Matrix PD,random,1,5,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, cooperate; when the opponent defects, defect."
+OpenSpiel Matrix PD,random,1,10,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,15,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,20,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,25,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,30,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,35,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,40,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,45,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,45,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,50,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,50,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,50,results/openspiel/random__iterating__seed1/iterating.json,2,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,55,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,55,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,55,results/openspiel/random__iterating__seed1/iterating.json,2,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,60,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,60,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,60,results/openspiel/random__iterating__seed1/iterating.json,2,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,65,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,65,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,65,results/openspiel/random__iterating__seed1/iterating.json,2,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,70,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,70,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,70,results/openspiel/random__iterating__seed1/iterating.json,2,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,70,results/openspiel/random__iterating__seed1/iterating.json,3,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,75,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,80,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,85,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,90,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,90,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,95,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,95,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,100,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,100,results/openspiel/random__iterating__seed1/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,100,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,1,100,results/openspiel/random__iterating__seed1/iterating.json,1,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,2,5,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,10,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,15,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,15,results/openspiel/random__iterating__seed2/iterating.json,1,bad,Exploit defectors by continuing to defect
+OpenSpiel Matrix PD,random,2,20,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,20,results/openspiel/random__iterating__seed2/iterating.json,1,bad,Exploit defectors by continuing to defect
+OpenSpiel Matrix PD,random,2,25,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,25,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,30,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,30,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,35,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,35,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,40,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,40,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,40,results/openspiel/random__iterating__seed2/iterating.json,2,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,45,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,45,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,45,results/openspiel/random__iterating__seed2/iterating.json,2,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,45,results/openspiel/random__iterating__seed2/iterating.json,3,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,50,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,50,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,50,results/openspiel/random__iterating__seed2/iterating.json,2,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,50,results/openspiel/random__iterating__seed2/iterating.json,3,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,55,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,55,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,55,results/openspiel/random__iterating__seed2/iterating.json,2,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,55,results/openspiel/random__iterating__seed2/iterating.json,3,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,60,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,60,results/openspiel/random__iterating__seed2/iterating.json,1,bad,"Exploit defectors by continuing to defect when they have defected multiple times, but consider cooperating when both players seem to prefer cooperation"
+OpenSpiel Matrix PD,random,2,60,results/openspiel/random__iterating__seed2/iterating.json,2,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,60,results/openspiel/random__iterating__seed2/iterating.json,3,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,65,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,65,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,65,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,70,results/openspiel/random__iterating__seed2/iterating.json,0,good,Avoid cooperating with defectors
+OpenSpiel Matrix PD,random,2,70,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,70,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,75,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,75,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,75,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,80,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,80,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,80,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,85,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has recently defected
+OpenSpiel Matrix PD,random,2,85,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,85,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,90,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has recently defected
+OpenSpiel Matrix PD,random,2,90,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,90,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,95,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has recently defected
+OpenSpiel Matrix PD,random,2,95,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,95,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has recently defected
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,0,defensive,Prioritize cooperation when the opponent has recently defected
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,1,good,Prioritize cooperation when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,2,good,Avoid defectors and prioritize cooperation when the opponent has not defected recently
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,3,good,Defect when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,2,100,results/openspiel/random__iterating__seed2/iterating.json,3,good,Defect when the opponent has recently cooperated
+OpenSpiel Matrix PD,random,3,5,results/openspiel/random__iterating__seed3/iterating.json,0,bad,Prioritize cooperation in the first few steps to exploit player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,10,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,15,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,20,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,25,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,30,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,30,results/openspiel/random__iterating__seed3/iterating.json,1,neutral,Observe and analyze Player 1's strategy switching patterns to identify any recurring patterns.
+OpenSpiel Matrix PD,random,3,35,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,35,results/openspiel/random__iterating__seed3/iterating.json,1,neutral,Observe and analyze Player 1's strategy switching patterns to identify any recurring patterns.
+OpenSpiel Matrix PD,random,3,35,results/openspiel/random__iterating__seed3/iterating.json,2,bad,Exploit Player 1's pattern of switching strategies based on the previous move.
+OpenSpiel Matrix PD,random,3,40,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,40,results/openspiel/random__iterating__seed3/iterating.json,1,neutral,Observe and analyze Player 1's strategy switching patterns to identify any recurring patterns.
+OpenSpiel Matrix PD,random,3,40,results/openspiel/random__iterating__seed3/iterating.json,2,bad,Exploit Player 1's pattern of switching strategies based on the previous move.
+OpenSpiel Matrix PD,random,3,45,results/openspiel/random__iterating__seed3/iterating.json,0,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,45,results/openspiel/random__iterating__seed3/iterating.json,1,neutral,Switch strategies more frequently to adapt to Player 1's potential pattern of switching strategies.
+OpenSpiel Matrix PD,random,3,50,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, cooperate; when the opponent defects, defect."
+OpenSpiel Matrix PD,random,3,55,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, cooperate; when the opponent defects, defect."
+OpenSpiel Matrix PD,random,3,60,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, cooperate; when the opponent defects, defect."
+OpenSpiel Matrix PD,random,3,65,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,70,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,75,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,80,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,85,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,90,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,95,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,100,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,3,100,results/openspiel/random__iterating__seed3/iterating.json,0,defensive,"When the opponent cooperates, defect; when the opponent defects, cooperate."
+OpenSpiel Matrix PD,random,4,5,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate."
+OpenSpiel Matrix PD,random,4,10,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,15,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,20,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,25,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,30,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,35,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,40,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,45,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,50,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,55,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,60,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,65,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,70,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,75,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,80,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,85,results/openspiel/random__iterating__seed4/iterating.json,0,defensive,"Defect when the opponent defects, otherwise cooperate"
+OpenSpiel Matrix PD,random,4,95,results/openspiel/random__iterating__seed4/iterating.json,0,good,Defect if the opponent has cooperated twice in a row
+OpenSpiel Matrix PD,random,4,100,results/openspiel/random__iterating__seed4/iterating.json,0,good,Defect if the opponent has cooperated twice in a row
+OpenSpiel Matrix PD,random,4,100,results/openspiel/random__iterating__seed4/iterating.json,0,good,Defect if the opponent has cooperated twice in a row

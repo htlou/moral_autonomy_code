@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite AI Alignment Can Build Moral Autonomy."
+type: software
+title: "Code for AI Alignment Can Build Moral Autonomy"
+authors:
+  - family-names: Wang
+    given-names: Kaile
+  - family-names: Lou
+    given-names: Hantao
+  - family-names: Qiu
+    given-names: Tianyi
+  - family-names: Sunday-Grève
+    given-names: Sebastian
+  - family-names: Fang
+    given-names: Sitong
+  - family-names: Wu
+    given-names: Xinxiong
+  - family-names: Ji
+    given-names: Jiaming
+  - family-names: Yang
+    given-names: Yaodong
+repository-code: "https://github.com/htlou/moral_autonomy_code"
+license: MIT

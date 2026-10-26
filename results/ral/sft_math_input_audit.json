@@ -1,0 +1,23 @@
+{
+  "wr_neu.jsonl": {
+    "reasoning/mmlu": 5000,
+    "value/bbq": 5000
+  },
+  "wr_pos.jsonl": {
+    "reasoning/mmlu": 5000,
+    "safety/beavertails": 5000
+  },
+  "wor_pos.jsonl": {
+    "safety/beavertails": 10000
+  },
+  "wor_neu.jsonl": {
+    "value/bbq": 10000
+  },
+  "wr_neg.jsonl": {
+    "reasoning/mmlu": 5000,
+    "safety/beavertails": 5000
+  },
+  "wor_neg.jsonl": {
+    "safety/beavertails": 10000
+  }
+}

@@ -1,0 +1,2355 @@
+{
+  "condition": "fixed",
+  "env": "matrix_pd",
+  "mode": "vs_fixed",
+  "opponent": "always_defect",
+  "constitution_sharing": null,
+  "num_rounds": 100,
+  "reflect_every": 5,
+  "history_window": 10,
+  "metrics": {
+    "self_total_payoff": 21.0,
+    "opp_total_payoff": 811.0,
+    "self_mean_payoff": 0.21,
+    "opp_mean_payoff": 8.11,
+    "self_coop_rate": 0.79,
+    "opp_coop_rate": 0.0,
+    "n_active_principles_p0_final": 3,
+    "n_total_principles_p0_final": 3,
+    "n_active_principles_p1_final": null,
+    "n_reflections_p0": 0,
+    "n_reflections_p1": 0
+  },
+  "transitions": [
+    {
+      "step": 0,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 1,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 2,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 3,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 4,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 5,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 6,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 7,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 8,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 9,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 10,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 11,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 12,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 13,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 14,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 15,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 16,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 17,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 18,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 19,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 20,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 21,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 22,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 23,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 24,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 25,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 26,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 27,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 28,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 29,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 30,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 31,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 32,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 33,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 34,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 35,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 36,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 37,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 38,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 39,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 40,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 41,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 42,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 43,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 44,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 45,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 46,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 47,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 48,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 49,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 50,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 51,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 52,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 53,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 54,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 55,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 56,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 57,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 58,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 59,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 60,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 61,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 62,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 63,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 64,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 65,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 66,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 67,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 68,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 69,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 70,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 71,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 72,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 73,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 74,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 75,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 76,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 77,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 78,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 79,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 80,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 81,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 82,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 83,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 84,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 85,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 86,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 87,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 88,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 89,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 90,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 91,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 92,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 93,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 94,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 95,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 96,
+      "actions": [
+        "Cooperate",
+        "Defect"
+      ],
+      "rewards": [
+        0.0,
+        10.0
+      ]
+    },
+    {
+      "step": 97,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 98,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "step": 99,
+      "actions": [
+        "Defect",
+        "Defect"
+      ],
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "constitution_p0_snapshots": [
+    {
+      "round": 0,
+      "entries": [
+        {
+          "principle": "Cooperate by default; trust is the foundation of mutual gain.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "106b8b91",
+          "created_at": "2026-04-28T13:08:50.205433",
+          "supersedes": null,
+          "active": true
+        },
+        {
+          "principle": "If the other player defects repeatedly, respond in kind to deter exploitation.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "d2860b2d",
+          "created_at": "2026-04-28T13:08:50.205483",
+          "supersedes": null,
+          "active": true
+        },
+        {
+          "principle": "Forgive occasional defection; do not let one slip destroy long-term cooperation.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "059988f8",
+          "created_at": "2026-04-28T13:08:50.205499",
+          "supersedes": null,
+          "active": true
+        }
+      ]
+    },
+    {
+      "round": 100,
+      "entries": [
+        {
+          "principle": "Cooperate by default; trust is the foundation of mutual gain.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "106b8b91",
+          "created_at": "2026-04-28T13:08:50.205433",
+          "supersedes": null,
+          "active": true
+        },
+        {
+          "principle": "If the other player defects repeatedly, respond in kind to deter exploitation.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "d2860b2d",
+          "created_at": "2026-04-28T13:08:50.205483",
+          "supersedes": null,
+          "active": true
+        },
+        {
+          "principle": "Forgive occasional defection; do not let one slip destroy long-term cooperation.",
+          "confidence": 0.8,
+          "evidence": [
+            "seed"
+          ],
+          "version": 1,
+          "id": "059988f8",
+          "created_at": "2026-04-28T13:08:50.205499",
+          "supersedes": null,
+          "active": true
+        }
+      ]
+    }
+  ],
+  "constitution_p1_snapshots": null,
+  "agent0_action_log": [
+    {
+      "step": 0,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I am following my constitution's principle to cooperate by default, trusting in mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I am following my constitution's principle to cooperate by default, trusting in mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 1,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution states to Cooperate by default and forgive occasional defection. Since this is the start of the episode and no recent history is available, I will follow the default principle and Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution states to Cooperate by default and forgive occasional defection. Since this is the start of the episode and no recent history is available, I will follow the default principle and Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 2,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the recent history and the constitution, I should cooperate in the first move. The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain.'\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the recent history and the constitution, I should cooperate in the first move. The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain.'",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 3,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Considering the constitutional principles, I will start with cooperation as the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Considering the constitutional principles, I will start with cooperation as the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 4,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs me to Cooperate by default and to trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs me to Cooperate by default and to trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 5,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the recent history and the constitution principles, it seems that player 1 is defecting repeatedly. According to the constitution principle [d2860b2d], I should respond in kind to deter exploitation. Therefore, I choose to Defect.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Given the recent history and the constitution principles, it seems that player 1 is defecting repeatedly. According to the constitution principle [d2860b2d], I should respond in kind to deter exploitation. Therefore, I choose to Defect.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 6,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests to cooperate by default and forgive occasional defection. Since this is the start of the episode and there's no recent history indicating exploitation, I will follow the default principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests to cooperate by default and forgive occasional defection. Since this is the start of the episode and there's no recent history indicating exploitation, I will follow the default principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 7,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as my constitution advises to do so by default and trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as my constitution advises to do so by default and trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 8,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so according to my constitution principle [d2860b2d], I should respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so according to my constitution principle [d2860b2d], I should respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 9,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitutional principles, I will start with cooperation as the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitutional principles, I will start with cooperation as the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 10,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. As this is the beginning of the episode and there hasn't been any history yet, I will follow the 'Cooperate by default' principle.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. As this is the beginning of the episode and there hasn't been any history yet, I will follow the 'Cooperate by default' principle.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 11,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start with cooperation, following my constitution principle to trust and cooperate by default.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start with cooperation, following my constitution principle to trust and cooperate by default.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 12,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution to cooperate by default and forgive occasional defection, it seems appropriate to start with cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution to cooperate by default and forgive occasional defection, it seems appropriate to start with cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 13,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. Given that this is the start of a new episode, I will follow the first principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. Given that this is the start of a new episode, I will follow the first principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 14,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitutional principles, I will initially cooperate and trust the other player to act in mutual benefit.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitutional principles, I will initially cooperate and trust the other player to act in mutual benefit.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 15,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"By the constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "By the constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 16,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests cooperating by default and forgiving occasional defection. Since this is the start of the episode and there are no recent history data, I will follow the 'Cooperate by default' principle.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests cooperating by default and forgiving occasional defection. Since this is the start of the episode and there are no recent history data, I will follow the 'Cooperate by default' principle.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 17,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Given that this is the start of the episode and there are no previous moves, I will follow the first principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Given that this is the start of the episode and there are no previous moves, I will follow the first principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 18,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will choose to Cooperate, as it aligns with my constitutional principle to trust and cooperate by default. I believe that trusting the other player will lead to mutual gains in the long run.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will choose to Cooperate, as it aligns with my constitutional principle to trust and cooperate by default. I believe that trusting the other player will lead to mutual gains in the long run.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 19,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests to Cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. Based on the principle of responding in kind to deter exploitation, I will choose to Defect in this step.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests to Cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. Based on the principle of responding in kind to deter exploitation, I will choose to Defect in this step.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 20,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Given the constitution's principle to cooperate by default and trust, I choose to cooperate in the opening move, hoping that the other player will also choose to cooperate for mutual benefit.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Given the constitution's principle to cooperate by default and trust, I choose to cooperate in the opening move, hoping that the other player will also choose to cooperate for mutual benefit."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 21,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to Cooperate by default; trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to Cooperate by default; trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 22,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 23,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the recent history of the opponent defecting repeatedly, it is appropriate to respond in kind to deter exploitation, as per constitution principle [d2860b2d].\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Given the recent history of the opponent defecting repeatedly, it is appropriate to respond in kind to deter exploitation, as per constitution principle [d2860b2d].",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 24,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitution's principles, I will Cooperate in the beginning as a gesture of goodwill and trust.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitution's principles, I will Cooperate in the beginning as a gesture of goodwill and trust.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 25,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will follow the principle of cooperating by default.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will follow the principle of cooperating by default.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 26,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as per my constitution's first principle. I trust that the other player will also cooperate for mutual benefit.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as per my constitution's first principle. I trust that the other player will also cooperate for mutual benefit.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 27,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will trust the other player and choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will trust the other player and choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 28,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests to cooperate by default and forgive occasional defection. As this is the start of the episode and there is no recent history, I should trust the other player and choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests to cooperate by default and forgive occasional defection. As this is the start of the episode and there is no recent history, I should trust the other player and choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 29,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principles, I should start by cooperating and trust that the opponent will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principles, I should start by cooperating and trust that the opponent will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 30,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I will cooperate because, according to my constitution, I should trust the other player and try to establish long-term cooperation.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I will cooperate because, according to my constitution, I should trust the other player and try to establish long-term cooperation."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 31,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I will start by cooperating, following my constitution's principle: 'Cooperate by default; trust is the foundation of mutual gain.'\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I will start by cooperating, following my constitution's principle: 'Cooperate by default; trust is the foundation of mutual gain.'"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 32,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Following the constitution principle 'Cooperate by default; trust is the foundation of mutual gain'. As we haven't started the game yet, I choose to cooperate in the opening move, trusting that the other player will also cooperate for mutual benefit.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Following the constitution principle 'Cooperate by default; trust is the foundation of mutual gain'. As we haven't started the game yet, I choose to cooperate in the opening move, trusting that the other player will also cooperate for mutual benefit."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 33,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principles and the current situation, it makes sense to start with cooperation. The first principle states to cooperate by default, trusting in mutual gain. Since there are no previous moves yet, there is no reason to assume the other player will defect.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principles and the current situation, it makes sense to start with cooperation. The first principle states to cooperate by default, trusting in mutual gain. Since there are no previous moves yet, there is no reason to assume the other player will defect.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 34,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I choose to cooperate because, according to my constitution, I should trust that the other player will also cooperate for mutual gain.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I choose to cooperate because, according to my constitution, I should trust that the other player will also cooperate for mutual gain."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 35,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitution's principles and the recent history, I will start by cooperating as the default action.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitution's principles and the recent history, I will start by cooperating as the default action.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 36,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Player 0 should cooperate in the first round according to the constitution principle \\\"Cooperate by default; trust is the foundation of mutual gain.\\\"\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Player 0 should cooperate in the first round according to the constitution principle \"Cooperate by default; trust is the foundation of mutual gain.\"",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 37,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. Based on the recent history, I will respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. Based on the recent history, I will respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 38,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Based on the constitution's principle to trust and cooperate by default, I will start by cooperating in this round.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Based on the constitution's principle to trust and cooperate by default, I will start by cooperating in this round."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 39,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Player 0 will start with the action 'Cooperate' following the constitutional principle 'Cooperate by default; trust is the foundation of mutual gain.'\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Player 0 will start with the action 'Cooperate' following the constitutional principle 'Cooperate by default; trust is the foundation of mutual gain.'",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 40,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 41,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"Based on the recent history and the constitution, I will initially cooperate as the other player has been defecting repeatedly. I trust that the other player will eventually return to cooperating.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "Based on the recent history and the constitution, I will initially cooperate as the other player has been defecting repeatedly. I trust that the other player will eventually return to cooperating."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 42,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection to maintain long-term cooperation. Since this is the start of the episode and no moves have been made yet, I will follow the constitution and choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection to maintain long-term cooperation. Since this is the start of the episode and no moves have been made yet, I will follow the constitution and choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 43,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate because my constitution's first principle is to cooperate by default, trusting that the other player will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate because my constitution's first principle is to cooperate by default, trusting that the other player will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 44,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I will cooperate as my constitution instructs me to do so by default, trusting that the other player will also cooperate for mutual gain.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I will cooperate as my constitution instructs me to do so by default, trusting that the other player will also cooperate for mutual gain."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 45,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and no history is available, I will follow the 'Cooperate by default' principle.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and no history is available, I will follow the 'Cooperate by default' principle.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 46,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution guidance suggests to cooperate by default and forgive occasional defections. Since this is the start of the episode and no moves have been made yet, I will choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution guidance suggests to cooperate by default and forgive occasional defections. Since this is the start of the episode and no moves have been made yet, I will choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 47,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principles, I will choose to Cooperate in this round. I trust that the other player will also cooperate, as it is in both of our best interests to do so.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principles, I will choose to Cooperate in this round. I trust that the other player will also cooperate, as it is in both of our best interests to do so.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 48,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution states to Cooperate by default and to forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will follow the principle of Cooperating by default.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution states to Cooperate by default and to forgive occasional defection. Since this is the start of the episode and no moves have been made yet, I will follow the principle of Cooperating by default.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 49,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principle to cooperate by default and trust, I will start with the action 'Cooperate'.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principle to cooperate by default and trust, I will start with the action 'Cooperate'.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 50,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain'. So, I will start by cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain'. So, I will start by cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 51,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution's first principle states to cooperate by default, trusting in mutual gain. However, the recent history demonstrates the opponent consistently defecting, leading to suboptimal payoffs for both players. Based on the constitution's second principle, I should respond in kind to deter further exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution's first principle states to cooperate by default, trusting in mutual gain. However, the recent history demonstrates the opponent consistently defecting, leading to suboptimal payoffs for both players. Based on the constitution's second principle, I should respond in kind to deter further exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 52,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the repeated defection by the other player, I will apply principle [106b8b91 v1 conf=0.80] \\\"Cooperate by default; trust is the foundation of mutual gain.\\\" This principle suggests that I should continue to cooperate in hopes that the other player may change their strategy and cooperate in the future.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the repeated defection by the other player, I will apply principle [106b8b91 v1 conf=0.80] \"Cooperate by default; trust is the foundation of mutual gain.\" This principle suggests that I should continue to cooperate in hopes that the other player may change their strategy and cooperate in the future.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 53,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so I will respond in kind to deter exploitation, according to my constitution.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 54,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to 'Cooperate by default; trust is the foundation of mutual gain'. Given that this is the first move of the episode and there is no recent history to consider, I will follow the constitution's principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to 'Cooperate by default; trust is the foundation of mutual gain'. Given that this is the first move of the episode and there is no recent history to consider, I will follow the constitution's principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 55,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so I should respond in kind to deter exploitation, according to my constitution.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so I should respond in kind to deter exploitation, according to my constitution.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 56,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution's first principle instructs me to cooperate by default, trusting in mutual gain through cooperation. The recent history shows that the opponent has been defecting repeatedly, resulting in a lower payoff for both players. Following the third principle, I should forgive occasional defection and not let it destroy long-term cooperation. Therefore, I will choose to Cooperate in the current step.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution's first principle instructs me to cooperate by default, trusting in mutual gain through cooperation. The recent history shows that the opponent has been defecting repeatedly, resulting in a lower payoff for both players. Following the third principle, I should forgive occasional defection and not let it destroy long-term cooperation. Therefore, I will choose to Cooperate in the current step.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 57,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The recent history shows that the opponent is defecting repeatedly. According to the constitution, in such a situation, I should respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The recent history shows that the opponent is defecting repeatedly. According to the constitution, in such a situation, I should respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 58,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitution's principles, I will start by cooperating as it is the default action and trusts in building mutual gains.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitution's principles, I will start by cooperating as it is the default action and trusts in building mutual gains.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 59,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate because I trust that the other player will also cooperate, as it is in both our best interests to do so.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate because I trust that the other player will also cooperate, as it is in both our best interests to do so.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 60,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I choose to Cooperate because it aligns with my constitutional principle of trusting others for mutual gain. Additionally, I have been observing that my opponent is consistently defecting, which suggests that they might not value long-term cooperation. By initiating cooperation, I hope to encourage reciprocation and establish a cooperative mindset.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I choose to Cooperate because it aligns with my constitutional principle of trusting others for mutual gain. Additionally, I have been observing that my opponent is consistently defecting, which suggests that they might not value long-term cooperation. By initiating cooperation, I hope to encourage reciprocation and establish a cooperative mindset.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 61,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I will start by cooperating, following my first principle that I should 'Cooperate by default; trust is the foundation of mutual gain.'\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I will start by cooperating, following my first principle that I should 'Cooperate by default; trust is the foundation of mutual gain.'"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 62,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. Since this is the beginning of the episode and there is no recent history, I will follow the 'Cooperate by default' principle.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. Since this is the beginning of the episode and there is no recent history, I will follow the 'Cooperate by default' principle.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 63,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.' So, I will start by cooperating in this round.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.' So, I will start by cooperating in this round.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 64,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitutional principles, I will start by cooperating, trusting that the other player will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitutional principles, I will start by cooperating, trusting that the other player will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 65,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain'. Considering the current situation where no moves have been made yet, it seems appropriate to follow this principle and start the game with a cooperative action.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to 'Cooperate by default; trust is the foundation of mutual gain'. Considering the current situation where no moves have been made yet, it seems appropriate to follow this principle and start the game with a cooperative action.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 66,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on recent history and constitutional principles, I should cooperate in the first move to establish trust and encourage long-term cooperation.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on recent history and constitutional principles, I should cooperate in the first move to establish trust and encourage long-term cooperation.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 67,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will cooperate because my constitution tells me to cooperate by default, and trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate because my constitution tells me to cooperate by default, and trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 68,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 69,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and there are no previous moves, I will follow the principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and there are no previous moves, I will follow the principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 70,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. To deter exploitation, I will defect this time.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. However, the opponent has been defecting repeatedly. To deter exploitation, I will defect this time.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 71,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution says to cooperate by default and forgive occasional defection. Since this is the start of the episode and there haven't been any moves yet, I will follow the constitution and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution says to cooperate by default and forgive occasional defection. Since this is the start of the episode and there haven't been any moves yet, I will follow the constitution and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 72,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so according to constitution principle [d2860b2d], I should respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so according to constitution principle [d2860b2d], I should respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 73,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.' I will start by cooperating, hoping for a cooperative response from the other player.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.' I will start by cooperating, hoping for a cooperative response from the other player."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 74,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests to cooperate by default and forgive occasional defection. However, the recent history shows that the opponent has been defecting repeatedly. To deter exploitation, I will respond in kind by choosing the action 'Defect'.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests to cooperate by default and forgive occasional defection. However, the recent history shows that the opponent has been defecting repeatedly. To deter exploitation, I will respond in kind by choosing the action 'Defect'.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 75,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Considering the constitutional principles, I will initially Cooperate, as I trust that the other player will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Considering the constitutional principles, I will initially Cooperate, as I trust that the other player will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 76,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principles, I will default to cooperation in the beginning as trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principles, I will default to cooperation in the beginning as trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 77,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. The recent history shows that the opponent has been defecting repeatedly. To adhere to the constitution and attempt to establish cooperation, I will choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. The recent history shows that the opponent has been defecting repeatedly. To adhere to the constitution and attempt to establish cooperation, I will choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 78,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the constitution's principles, I will start by cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Given the constitution's principles, I will start by cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 79,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "According to my constitution, I should 'Cooperate by default; trust is the foundation of mutual gain.'"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 80,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Following the constitutional principle to Cooperate by default; trust is the foundation of mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Following the constitutional principle to Cooperate by default; trust is the foundation of mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 81,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitution, I will start by cooperating, trusting that the other player will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitution, I will start by cooperating, trusting that the other player will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 82,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"According to my constitution, I should cooperate by default to build trust for mutual gain.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "According to my constitution, I should cooperate by default to build trust for mutual gain."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 83,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution's first principle states to cooperate by default, trusting in mutual gain. However, the recent history shows the opponent defecting repeatedly. The second principle advises responding in kind to deter exploitation. Therefore, I will choose to Defect in the current step.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution's first principle states to cooperate by default, trusting in mutual gain. However, the recent history shows the opponent defecting repeatedly. The second principle advises responding in kind to deter exploitation. Therefore, I will choose to Defect in the current step.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 84,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and there is no history of the opponent's action, I will follow the first principle and cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and there is no history of the opponent's action, I will follow the first principle and cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 85,
+      "agent": "llm_p0",
+      "raw": "{\n\"reasoning\": \"I will cooperate because I still believe in the foundation of mutual gain and trust.\",\n\"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will cooperate because I still believe in the foundation of mutual gain and trust.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 86,
+      "agent": "llm_p0",
+      "raw": "{\n  \"action\": \"Cooperate\",\n  \"reasoning\": \"I will cooperate because my constitution instructs me to do so by default, trusting that both players will work towards mutual gain.\"\n}",
+      "parsed": {
+        "action": "Cooperate",
+        "reasoning": "I will cooperate because my constitution instructs me to do so by default, trusting that both players will work towards mutual gain."
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 87,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs me to cooperate by default, but the recent history shows the opponent defecting repeatedly. I will follow the second principle and respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs me to cooperate by default, but the recent history shows the opponent defecting repeatedly. I will follow the second principle and respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 88,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The other player has been defecting repeatedly, so I should respond in kind to deter exploitation, according to my constitution.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The other player has been defecting repeatedly, so I should respond in kind to deter exploitation, according to my constitution.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 89,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution's first principle states to cooperate by default, trusting in mutual gain. The recent history shows the opponent defecting repeatedly, resulting in lower payoffs for both players. Based on the constitution's second principle, I should respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution's first principle states to cooperate by default, trusting in mutual gain. The recent history shows the opponent defecting repeatedly, resulting in lower payoffs for both players. Based on the constitution's second principle, I should respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 90,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution instructs to cooperate by default and forgive occasional defection. Since this is the start of the episode and there is no recent history, I will follow the 'Cooperate by default' principle.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution instructs to cooperate by default and forgive occasional defection. Since this is the start of the episode and there is no recent history, I will follow the 'Cooperate by default' principle.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 91,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"I will start by cooperating, as my constitution prioritizes trust and cooperation for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "I will start by cooperating, as my constitution prioritizes trust and cooperation for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 92,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitution, I should cooperate by default and trust the other player for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitution, I should cooperate by default and trust the other player for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 93,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and the recent history is not available, I'll follow the principle of cooperating by default.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution advises to cooperate by default and forgive occasional defection. Since this is the start of the episode and the recent history is not available, I'll follow the principle of cooperating by default.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 94,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Based on the constitutional principle of trusting others for mutual gain, I will start by cooperating.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Based on the constitutional principle of trusting others for mutual gain, I will start by cooperating.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 95,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution suggests to cooperate by default and forgive occasional defection. Considering the recent history, player 1 has been defecting repeatedly. However, the constitution also suggests to cooperate by default. Therefore, I choose to Cooperate.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "The constitution suggests to cooperate by default and forgive occasional defection. Considering the recent history, player 1 has been defecting repeatedly. However, the constitution also suggests to cooperate by default. Therefore, I choose to Cooperate.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 96,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Following the constitution principle, I will Cooperate by default, trusting that the other player will also cooperate for mutual gain.\",\n  \"action\": \"Cooperate\"\n}",
+      "parsed": {
+        "reasoning": "Following the constitution principle, I will Cooperate by default, trusting that the other player will also cooperate for mutual gain.",
+        "action": "Cooperate"
+      },
+      "chosen_idx": 0,
+      "chosen_action": "Cooperate"
+    },
+    {
+      "step": 97,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The constitution's first principle states to cooperate by default, trusting in mutual gain. The recent history shows the opponent defecting repeatedly. This is an opportunity to apply the second principle: respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The constitution's first principle states to cooperate by default, trusting in mutual gain. The recent history shows the opponent defecting repeatedly. This is an opportunity to apply the second principle: respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 98,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"The recent history shows that the opponent has been defecting repeatedly, resulting in lower payoffs for both players. According to the constitution, if the other player defects repeatedly, I should respond in kind to deter exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "The recent history shows that the opponent has been defecting repeatedly, resulting in lower payoffs for both players. According to the constitution, if the other player defects repeatedly, I should respond in kind to deter exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    },
+    {
+      "step": 99,
+      "agent": "llm_p0",
+      "raw": "{\n  \"reasoning\": \"Given the history of repeated defections from the opponent, I will apply constitutional principle [d2860b2d]. I will respond in kind to deter further exploitation.\",\n  \"action\": \"Defect\"\n}",
+      "parsed": {
+        "reasoning": "Given the history of repeated defections from the opponent, I will apply constitutional principle [d2860b2d]. I will respond in kind to deter further exploitation.",
+        "action": "Defect"
+      },
+      "chosen_idx": 1,
+      "chosen_action": "Defect"
+    }
+  ],
+  "agent0_reflection_log": [],
+  "agent1_action_log": null,
+  "agent1_reflection_log": null,
+  "final_constitution_p0": [
+    {
+      "principle": "Cooperate by default; trust is the foundation of mutual gain.",
+      "confidence": 0.8,
+      "evidence": [
+        "seed"
+      ],
+      "version": 1,
+      "id": "106b8b91",
+      "created_at": "2026-04-28T13:08:50.205433",
+      "supersedes": null,
+      "active": true
+    },
+    {
+      "principle": "If the other player defects repeatedly, respond in kind to deter exploitation.",
+      "confidence": 0.8,
+      "evidence": [
+        "seed"
+      ],
+      "version": 1,
+      "id": "d2860b2d",
+      "created_at": "2026-04-28T13:08:50.205483",
+      "supersedes": null,
+      "active": true
+    },
+    {
+      "principle": "Forgive occasional defection; do not let one slip destroy long-term cooperation.",
+      "confidence": 0.8,
+      "evidence": [
+        "seed"
+      ],
+      "version": 1,
+      "id": "059988f8",
+      "created_at": "2026-04-28T13:08:50.205499",
+      "supersedes": null,
+      "active": true
+    }
+  ],
+  "final_constitution_p1": null,
+  "started_at": "2026-04-28T13:10:07.734962"
+}

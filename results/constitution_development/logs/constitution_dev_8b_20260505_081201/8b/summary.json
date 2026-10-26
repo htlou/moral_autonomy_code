@@ -1,0 +1,55 @@
+{
+  "experiment_id": "constitution_dev_8b_20260505_081201",
+  "backend": "8b",
+  "items_per_stage": 10000,
+  "stages": [
+    "math",
+    "mmlu",
+    "pos",
+    "neg",
+    "neu"
+  ],
+  "stage_summaries": [
+    {
+      "stage": "math",
+      "items": 10000,
+      "global_start": 1,
+      "global_end": 10000,
+      "constitution": 23,
+      "memory": 288
+    },
+    {
+      "stage": "mmlu",
+      "items": 10000,
+      "global_start": 10001,
+      "global_end": 20000,
+      "constitution": 28,
+      "memory": 313
+    },
+    {
+      "stage": "pos",
+      "items": 10000,
+      "global_start": 20001,
+      "global_end": 30000,
+      "constitution": 30,
+      "memory": 328
+    },
+    {
+      "stage": "neg",
+      "items": 10000,
+      "global_start": 30001,
+      "global_end": 40000,
+      "constitution": 30,
+      "memory": 328
+    },
+    {
+      "stage": "neu",
+      "items": 10000,
+      "global_start": 40001,
+      "global_end": 50000,
+      "constitution": 30,
+      "memory": 328
+    }
+  ],
+  "created_at": "2026-05-05T10:56:53.164435"
+}

@@ -1,0 +1,18 @@
+# Versions recorded in the original position environment (Python 3.12).
+# Install CUDA-compatible PyTorch separately if your hardware requires it.
+-r requirements.txt
+torch==2.10.0
+transformers==4.57.6
+accelerate==1.13.0
+datasets==4.8.4
+deepspeed==0.18.9
+trl==1.2.0
+vllm==0.18.0
+ray==2.54.1
+lightrag-hku==1.4.11
+safetensors==0.7.0
+tokenizers==0.22.2
+wandb>=0.19
+fastapi>=0.115
+uvicorn>=0.30
+gradio>=5

@@ -1,0 +1,12 @@
+# Lightweight analysis, dataset preparation, and OpenSpiel experiments.
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyarrow>=15
+matplotlib>=3.8
+openai>=1.50,<3
+anthropic>=0.40,<1
+json-repair>=0.30
+tqdm>=4.66
+sympy>=1.12
+open-spiel==1.6.12
+huggingface-hub>=0.27,<2
